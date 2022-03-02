@@ -9,7 +9,7 @@ public class Scrap_PickUp : MonoBehaviour
 
     void OnTriggerEnter(Collider Col)
     {
-        if(Col.tag == "player")
+        if(Col.tag == "Player")
         {
             //keep track of scrap collected and add to total 
             //Display total scrap collected
