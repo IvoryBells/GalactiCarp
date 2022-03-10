@@ -109,7 +109,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf9598b532ef324c9958cd2132a01a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeSound: {fileID: 8300000, guid: 1fd0ceb2a2f04a94893241a23e8eff69, type: 3}
 --- !u!114 &3880621506733687704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -122,4 +121,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd6ab2cb75f1ac74bb0991cab906bdc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrapSound: {fileID: 8300000, guid: f18d13ef57dee5246b4da2a7f7c3e4af, type: 3}
