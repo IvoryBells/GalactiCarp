@@ -6,7 +6,7 @@ public class Scrap_PickUp : MonoBehaviour
 {
 
     int scrapVal = 1;
-
+    public AudioClip scrapSound;
     void OnTriggerEnter(Collider Col)
     {
         if(Col.tag == "Player")
@@ -15,7 +15,7 @@ public class Scrap_PickUp : MonoBehaviour
             //Display total scrap collected
 
             Scrap_Counter.scrapCount += scrapVal;
-
+            AudioSource.PlayClipAtPoint(scrapSound, transform.position);
             Destroy(gameObject);
         }
     }

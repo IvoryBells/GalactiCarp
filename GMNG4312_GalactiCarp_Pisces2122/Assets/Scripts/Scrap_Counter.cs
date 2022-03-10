@@ -7,6 +7,7 @@ public class Scrap_Counter : MonoBehaviour
 
     static public int scrapCount = 0;
     int scrap_goal;
+    public AudioClip upgradeSound;
 
     void OnGUI()
     {
@@ -17,7 +18,29 @@ public class Scrap_Counter : MonoBehaviour
             scrap_goal = 10;
         }
         */
-        for(int i = 0;i < 5; i++)
+
+        if(scrapCount == 10)
+        {
+            AudioSource.PlayClipAtPoint(upgradeSound, transform.position);
+        }
+        else if (scrapCount == 20)
+        {
+            AudioSource.PlayClipAtPoint(upgradeSound, transform.position);
+        }
+        else if (scrapCount == 30)
+        {
+            AudioSource.PlayClipAtPoint(upgradeSound, transform.position);
+        }
+        else if (scrapCount == 40)
+        {
+            AudioSource.PlayClipAtPoint(upgradeSound, transform.position);
+        }
+        else if (scrapCount == 50)
+        {
+            AudioSource.PlayClipAtPoint(upgradeSound, transform.position);
+        }
+
+        for (int i = 0;i < 5; i++)
         {
             if (scrapCount<(i+1)*10)
             {
