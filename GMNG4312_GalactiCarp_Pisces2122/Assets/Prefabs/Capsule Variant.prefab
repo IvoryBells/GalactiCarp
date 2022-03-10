@@ -53,7 +53,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3584795297624084732, guid: aeff717bc63240c46b08d0dcff994b4c, type: 3}
       propertyPath: m_Name
-      value: Capsule
+      value: Capsule Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3584795297624084733, guid: aeff717bc63240c46b08d0dcff994b4c, type: 3}
       propertyPath: cam
