@@ -6,7 +6,10 @@ public class Scrap_Counter : MonoBehaviour
 {
 
     static public int scrapCount = 0;
-    int scrap_goal;
+    static public int scrap_goal;
+
+    
+   
 
     void OnGUI()
     {
@@ -24,6 +27,12 @@ public class Scrap_Counter : MonoBehaviour
                 scrap_goal = (i+1) * 10;
                 break;
             }
+
+            //if(scrapCount >= 20 && scrapCount < 40)
+           // {
+
+
+           // }
         }
 
         GUI.Box(new Rect(10, 10, 400, 100), "Scrap collected: " + scrapCount + "/" + scrap_goal);
