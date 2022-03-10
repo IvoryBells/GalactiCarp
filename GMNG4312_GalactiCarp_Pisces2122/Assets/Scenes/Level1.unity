@@ -196,11 +196,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5f862d949de8b945bb99d728121cfdb, type: 3}
---- !u!4 &3979374 stripped
+--- !u!4 &3979374
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e5f862d949de8b945bb99d728121cfdb, type: 3}
   m_PrefabInstance: {fileID: 3979373}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546697853}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &9416204
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -274,11 +283,20 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 46df2846a9707374dad9a173ba4ee82f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8dad681d18f82c4398684577e56af33, type: 3}
---- !u!4 &9416205 stripped
+--- !u!4 &9416205
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f8dad681d18f82c4398684577e56af33, type: 3}
   m_PrefabInstance: {fileID: 9416204}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000691003}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &11342857
 GameObject:
   m_ObjectHideFlags: 0
@@ -564,6 +582,22 @@ Transform:
   m_Father: {fileID: 1383467636}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &32136604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dcdc4bfa3a570474cbdad2cd6529f221, type: 3}
+  m_PrefabInstance: {fileID: 163560230}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 163560231}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper F (Missing Prefab with guid: dcdc4bfa3a570474cbdad2cd6529f221)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &48335406
 GameObject:
   m_ObjectHideFlags: 0
@@ -1040,6 +1074,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93491253}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &105789149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e5f862d949de8b945bb99d728121cfdb, type: 3}
+  m_PrefabInstance: {fileID: 1448012349}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1448012350}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper i (Missing Prefab with guid: e5f862d949de8b945bb99d728121cfdb)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &105860118
 GameObject:
   m_ObjectHideFlags: 0
@@ -1164,7 +1214,7 @@ Transform:
   m_Children:
   - {fileID: 960158192}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &126593244
 GameObject:
@@ -1846,11 +1896,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcdc4bfa3a570474cbdad2cd6529f221, type: 3}
---- !u!4 &163560231 stripped
+--- !u!4 &163560231
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dcdc4bfa3a570474cbdad2cd6529f221, type: 3}
   m_PrefabInstance: {fileID: 163560230}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32136604}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &169308528
 GameObject:
   m_ObjectHideFlags: 0
@@ -2041,6 +2100,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 169598321}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &171605548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f8dad681d18f82c4398684577e56af33, type: 3}
+  m_PrefabInstance: {fileID: 1945794198}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1945794199}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper G (5) (Missing Prefab with guid: f8dad681d18f82c4398684577e56af33)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &179290583
 GameObject:
   m_ObjectHideFlags: 0
@@ -2136,6 +2211,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 179290583}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &196513139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f31b2b967bb5e5a4f8814c2410414e89, type: 3}
+  m_PrefabInstance: {fileID: 1655692264}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1655692265}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper K (Missing Prefab with guid: f31b2b967bb5e5a4f8814c2410414e89)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &196977858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f8dad681d18f82c4398684577e56af33, type: 3}
+  m_PrefabInstance: {fileID: 1510099343}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1510099344}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper G (3) (Missing Prefab with guid: f8dad681d18f82c4398684577e56af33)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &201382098
 GameObject:
   m_ObjectHideFlags: 0
@@ -2399,11 +2506,20 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 46df2846a9707374dad9a173ba4ee82f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13173f89b68f57948b95ffbd5d6987c0, type: 3}
---- !u!4 &208893652 stripped
+--- !u!4 &208893652
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 13173f89b68f57948b95ffbd5d6987c0, type: 3}
   m_PrefabInstance: {fileID: 208893651}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636902055}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &209055408
 GameObject:
   m_ObjectHideFlags: 0
@@ -2594,6 +2710,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 215669707}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &219597624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e5f862d949de8b945bb99d728121cfdb, type: 3}
+  m_PrefabInstance: {fileID: 1218006906}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1218006907}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper i (4) (Missing Prefab with guid: e5f862d949de8b945bb99d728121cfdb)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &224715408
 GameObject:
   m_ObjectHideFlags: 0
@@ -3165,6 +3297,79 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267669404}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &268772036
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4585876352086929412, guid: c3e0f7928ff601846b1741664b609481, type: 3}
+      propertyPath: m_Name
+      value: ----PLAYER---- (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4585876352086929413, guid: c3e0f7928ff601846b1741664b609481, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4585876352086929413, guid: c3e0f7928ff601846b1741664b609481, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.39613217
+      objectReference: {fileID: 0}
+    - target: {fileID: 4585876352086929413, guid: c3e0f7928ff601846b1741664b609481, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.39613217
+      objectReference: {fileID: 0}
+    - target: {fileID: 4585876352086929413, guid: c3e0f7928ff601846b1741664b609481, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.39613217
+      objectReference: {fileID: 0}
+    - target: {fileID: 4585876352086929413, guid: c3e0f7928ff601846b1741664b609481, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 81.4747
+      objectReference: {fileID: 0}
+    - target: {fileID: 4585876352086929413, guid: c3e0f7928ff601846b1741664b609481, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 4585876352086929413, guid: c3e0f7928ff601846b1741664b609481, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 74.211655
+      objectReference: {fileID: 0}
+    - target: {fileID: 4585876352086929413, guid: c3e0f7928ff601846b1741664b609481, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4585876352086929413, guid: c3e0f7928ff601846b1741664b609481, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4585876352086929413, guid: c3e0f7928ff601846b1741664b609481, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4585876352086929413, guid: c3e0f7928ff601846b1741664b609481, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4585876352086929413, guid: c3e0f7928ff601846b1741664b609481, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4585876352086929413, guid: c3e0f7928ff601846b1741664b609481, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4585876352086929413, guid: c3e0f7928ff601846b1741664b609481, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4585876352086929432, guid: c3e0f7928ff601846b1741664b609481, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 963194227}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c3e0f7928ff601846b1741664b609481, type: 3}
 --- !u!1 &275797669
 GameObject:
   m_ObjectHideFlags: 0
@@ -3737,6 +3942,22 @@ Transform:
   m_Father: {fileID: 1383467636}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &322854718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ba31e07019eff914387cd837e8108448, type: 3}
+  m_PrefabInstance: {fileID: 1371238774}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1371238775}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper E (Missing Prefab with guid: ba31e07019eff914387cd837e8108448)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &330144442
 GameObject:
   m_ObjectHideFlags: 0
@@ -4402,6 +4623,22 @@ Transform:
   m_Father: {fileID: 1383467636}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &372806386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2443169952788944172, guid: c5db35dcf28702c49b90347238f295f7, type: 3}
+  m_PrefabInstance: {fileID: 3253441648243314796}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 543450652619431930}
+  m_Layer: 0
+  m_Name: 'Pisces Junk Pile (Missing Prefab with guid: c5db35dcf28702c49b90347238f295f7)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1001 &379676067
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4475,11 +4712,20 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 46df2846a9707374dad9a173ba4ee82f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8dad681d18f82c4398684577e56af33, type: 3}
---- !u!4 &379676068 stripped
+--- !u!4 &379676068
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f8dad681d18f82c4398684577e56af33, type: 3}
   m_PrefabInstance: {fileID: 379676067}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139777643}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &394491302
 GameObject:
   m_ObjectHideFlags: 0
@@ -4575,6 +4821,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 394491302}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &395031648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1060244073819151666, guid: 1e5980028882eb04585273778d3bd79c, type: 3}
+  m_PrefabInstance: {fileID: 1060244073665709272}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 960158192}
+  m_Layer: 0
+  m_Name: 'Capsule (Missing Prefab with guid: 1e5980028882eb04585273778d3bd79c)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &424591926
 GameObject:
   m_ObjectHideFlags: 0
@@ -4983,6 +5245,7 @@ MonoBehaviour:
   speed: 6
   gravity: -9.81
   jumpHeight: 6
+  isGrounded: 0
   turnSmoothTime: 10
 --- !u!143 &453356745
 CharacterController:
@@ -5168,7 +5431,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468542871}
-  m_LocalRotation: {x: 0.12520729, y: 0.37149408, z: -0.05063774, w: 0.9185593}
+  m_LocalRotation: {x: 0.13108687, y: 0.23854585, z: -0.03251579, w: 0.96169376}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -5272,6 +5535,22 @@ Transform:
   m_Father: {fileID: 2049337717}
   m_RootOrder: 91
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &484741357
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f8dad681d18f82c4398684577e56af33, type: 3}
+  m_PrefabInstance: {fileID: 706934812}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 706934813}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper G (Missing Prefab with guid: f8dad681d18f82c4398684577e56af33)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &486875713
 GameObject:
   m_ObjectHideFlags: 0
@@ -5634,11 +5913,20 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 46df2846a9707374dad9a173ba4ee82f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60a07b093e9d653419f7de52ab6a4916, type: 3}
---- !u!4 &506009767 stripped
+--- !u!4 &506009767
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60a07b093e9d653419f7de52ab6a4916, type: 3}
   m_PrefabInstance: {fileID: 506009766}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647959992}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &508482777
 GameObject:
   m_ObjectHideFlags: 0
@@ -5734,6 +6022,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 508482777}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &521914011
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e5f862d949de8b945bb99d728121cfdb, type: 3}
+  m_PrefabInstance: {fileID: 1461826917}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1461826918}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper i (1) (Missing Prefab with guid: e5f862d949de8b945bb99d728121cfdb)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &526805141
 GameObject:
   m_ObjectHideFlags: 0
@@ -6018,7 +6322,7 @@ Transform:
   m_LocalScale: {x: 35.622738, y: 35.622738, z: 35.622738}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &570529861
 GameObject:
@@ -6210,6 +6514,22 @@ Transform:
   m_Father: {fileID: 1383467636}
   m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &580656839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e5f862d949de8b945bb99d728121cfdb, type: 3}
+  m_PrefabInstance: {fileID: 1671232995}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1671232996}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper i (2) (Missing Prefab with guid: e5f862d949de8b945bb99d728121cfdb)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &627887072
 GameObject:
   m_ObjectHideFlags: 0
@@ -6379,11 +6699,36 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 46df2846a9707374dad9a173ba4ee82f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8dad681d18f82c4398684577e56af33, type: 3}
---- !u!4 &636391156 stripped
+--- !u!4 &636391156
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f8dad681d18f82c4398684577e56af33, type: 3}
   m_PrefabInstance: {fileID: 636391155}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413571678}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &636902055
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 13173f89b68f57948b95ffbd5d6987c0, type: 3}
+  m_PrefabInstance: {fileID: 208893651}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 208893652}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper B (Missing Prefab with guid: 13173f89b68f57948b95ffbd5d6987c0)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &638777308
 GameObject:
   m_ObjectHideFlags: 0
@@ -6479,6 +6824,22 @@ Transform:
   m_Father: {fileID: 1383467636}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &647959992
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 60a07b093e9d653419f7de52ab6a4916, type: 3}
+  m_PrefabInstance: {fileID: 506009766}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 506009767}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper A (Missing Prefab with guid: 60a07b093e9d653419f7de52ab6a4916)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &656968058
 GameObject:
   m_ObjectHideFlags: 0
@@ -7151,11 +7512,20 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 46df2846a9707374dad9a173ba4ee82f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8dad681d18f82c4398684577e56af33, type: 3}
---- !u!4 &706934813 stripped
+--- !u!4 &706934813
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f8dad681d18f82c4398684577e56af33, type: 3}
   m_PrefabInstance: {fileID: 706934812}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484741357}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &715148734
 GameObject:
   m_ObjectHideFlags: 0
@@ -8681,6 +9051,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 902625185}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &904399545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f8dad681d18f82c4398684577e56af33, type: 3}
+  m_PrefabInstance: {fileID: 1374864297}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1374864298}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper G (1) (Missing Prefab with guid: f8dad681d18f82c4398684577e56af33)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &908827345
 GameObject:
   m_ObjectHideFlags: 0
@@ -8718,7 +9104,7 @@ Transform:
   - {fileID: 486875714}
   - {fileID: 698262881}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &909778918
 GameObject:
@@ -8942,14 +9328,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919699607}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 38.52732, y: 7.7200003, z: 39.84059}
+  m_LocalPosition: {x: 42.628048, y: 4.40075, z: 47.59801}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 468542873}
   - {fileID: 1651806701}
   - {fileID: 2106790032}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &925035365
 GameObject:
@@ -9142,6 +9528,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 938879809}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &948914252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5df62c7490a101e42b66d0af9adb44f9, type: 3}
+  m_PrefabInstance: {fileID: 1733885273}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1733885274}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper H (Missing Prefab with guid: 5df62c7490a101e42b66d0af9adb44f9)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &950652799
 GameObject:
   m_ObjectHideFlags: 0
@@ -9385,13 +9787,22 @@ Transform:
   - {fileID: 1736206398}
   - {fileID: 2146507914}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &960158192 stripped
+--- !u!4 &960158192
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 1060244073819151656, guid: 1e5980028882eb04585273778d3bd79c, type: 3}
   m_PrefabInstance: {fileID: 1060244073665709272}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395031648}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 107718031}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -9469,8 +9880,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.10847848, y: 0.3723538, z: -0.043872073, w: 0.92068475}
-  m_LocalPosition: {x: 38.52732, y: 7.7200003, z: 39.84059}
+  m_LocalRotation: {x: 0.11357245, y: 0.23909776, z: -0.028171364, w: 0.9639191}
+  m_LocalPosition: {x: 42.628048, y: 4.40075, z: 47.59801}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -10081,6 +10492,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 995893577}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1000691003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f8dad681d18f82c4398684577e56af33, type: 3}
+  m_PrefabInstance: {fileID: 9416204}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9416205}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper G (2) (Missing Prefab with guid: f8dad681d18f82c4398684577e56af33)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1001 &1024207718
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10154,11 +10581,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d39007d9880415843b1cfe3c3803d98a, type: 3}
---- !u!4 &1024207719 stripped
+--- !u!4 &1024207719
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d39007d9880415843b1cfe3c3803d98a, type: 3}
   m_PrefabInstance: {fileID: 1024207718}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860080328}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1024250748
 GameObject:
   m_ObjectHideFlags: 0
@@ -11457,7 +11893,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1217583926
 GameObject:
@@ -11627,11 +12063,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5f862d949de8b945bb99d728121cfdb, type: 3}
---- !u!4 &1218006907 stripped
+--- !u!4 &1218006907
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e5f862d949de8b945bb99d728121cfdb, type: 3}
   m_PrefabInstance: {fileID: 1218006906}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219597624}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1222189508
 GameObject:
   m_ObjectHideFlags: 0
@@ -12097,11 +12542,20 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 46df2846a9707374dad9a173ba4ee82f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7907dcecbd951464d97868ef28979780, type: 3}
---- !u!4 &1244554893 stripped
+--- !u!4 &1244554893
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7907dcecbd951464d97868ef28979780, type: 3}
   m_PrefabInstance: {fileID: 1244554892}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768128603}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1246432891
 GameObject:
   m_ObjectHideFlags: 0
@@ -12278,11 +12732,20 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 46df2846a9707374dad9a173ba4ee82f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7907dcecbd951464d97868ef28979780, type: 3}
---- !u!4 &1248399973 stripped
+--- !u!4 &1248399973
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7907dcecbd951464d97868ef28979780, type: 3}
   m_PrefabInstance: {fileID: 1248399972}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437733557}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1253411980
 GameObject:
   m_ObjectHideFlags: 0
@@ -12664,6 +13127,22 @@ Transform:
   m_Father: {fileID: 1383467636}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1366893449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 60a07b093e9d653419f7de52ab6a4916, type: 3}
+  m_PrefabInstance: {fileID: 1598804061}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1598804062}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper A (1) (Missing Prefab with guid: 60a07b093e9d653419f7de52ab6a4916)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1001 &1371238774
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12741,11 +13220,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba31e07019eff914387cd837e8108448, type: 3}
---- !u!4 &1371238775 stripped
+--- !u!4 &1371238775
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ba31e07019eff914387cd837e8108448, type: 3}
   m_PrefabInstance: {fileID: 1371238774}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322854718}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1374864297
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12819,11 +13307,20 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 46df2846a9707374dad9a173ba4ee82f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8dad681d18f82c4398684577e56af33, type: 3}
---- !u!4 &1374864298 stripped
+--- !u!4 &1374864298
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f8dad681d18f82c4398684577e56af33, type: 3}
   m_PrefabInstance: {fileID: 1374864297}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904399545}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1383467635
 GameObject:
   m_ObjectHideFlags: 0
@@ -12908,7 +13405,7 @@ Transform:
   - {fileID: 1603056735}
   - {fileID: 330144446}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1398720751
 GameObject:
@@ -13292,6 +13789,22 @@ Transform:
   m_Father: {fileID: 1383467636}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1413571678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f8dad681d18f82c4398684577e56af33, type: 3}
+  m_PrefabInstance: {fileID: 636391155}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 636391156}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper G (6) (Missing Prefab with guid: f8dad681d18f82c4398684577e56af33)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1415181154
 GameObject:
   m_ObjectHideFlags: 0
@@ -13579,6 +14092,22 @@ Transform:
   m_Father: {fileID: 2049337717}
   m_RootOrder: 94
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1437733557
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7907dcecbd951464d97868ef28979780, type: 3}
+  m_PrefabInstance: {fileID: 1248399972}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1248399973}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper D (Missing Prefab with guid: 7907dcecbd951464d97868ef28979780)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1001 &1448012349
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13652,11 +14181,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5f862d949de8b945bb99d728121cfdb, type: 3}
---- !u!4 &1448012350 stripped
+--- !u!4 &1448012350
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e5f862d949de8b945bb99d728121cfdb, type: 3}
   m_PrefabInstance: {fileID: 1448012349}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105789149}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1456299409
 GameObject:
   m_ObjectHideFlags: 0
@@ -13920,11 +14458,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5f862d949de8b945bb99d728121cfdb, type: 3}
---- !u!4 &1461826918 stripped
+--- !u!4 &1461826918
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e5f862d949de8b945bb99d728121cfdb, type: 3}
   m_PrefabInstance: {fileID: 1461826917}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521914011}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1472860635
 GameObject:
   m_ObjectHideFlags: 0
@@ -14334,7 +14881,7 @@ Transform:
   m_Children:
   - {fileID: 543450652619431930}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1501752346
 GameObject:
@@ -14599,11 +15146,20 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 46df2846a9707374dad9a173ba4ee82f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8dad681d18f82c4398684577e56af33, type: 3}
---- !u!4 &1510099344 stripped
+--- !u!4 &1510099344
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f8dad681d18f82c4398684577e56af33, type: 3}
   m_PrefabInstance: {fileID: 1510099343}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196977858}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1511802300
 GameObject:
   m_ObjectHideFlags: 0
@@ -15082,6 +15638,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1541191221}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1546697853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e5f862d949de8b945bb99d728121cfdb, type: 3}
+  m_PrefabInstance: {fileID: 3979373}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3979374}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper i (3) (Missing Prefab with guid: e5f862d949de8b945bb99d728121cfdb)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1562349620
 GameObject:
   m_ObjectHideFlags: 0
@@ -15254,11 +15826,20 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 46df2846a9707374dad9a173ba4ee82f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60a07b093e9d653419f7de52ab6a4916, type: 3}
---- !u!4 &1598804062 stripped
+--- !u!4 &1598804062
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60a07b093e9d653419f7de52ab6a4916, type: 3}
   m_PrefabInstance: {fileID: 1598804061}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366893449}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1603056731
 GameObject:
   m_ObjectHideFlags: 0
@@ -15354,6 +15935,22 @@ Transform:
   m_Father: {fileID: 1383467636}
   m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 22.469, z: 0}
+--- !u!1 &1605534685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f8dad681d18f82c4398684577e56af33, type: 3}
+  m_PrefabInstance: {fileID: 2146507913}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2146507914}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper G (7) (Missing Prefab with guid: f8dad681d18f82c4398684577e56af33)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1651806699
 GameObject:
   m_ObjectHideFlags: 3
@@ -15420,7 +16017,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1651806699}
-  m_LocalRotation: {x: 0.10847845, y: 0.3723537, z: -0.043872073, w: 0.92068475}
+  m_LocalRotation: {x: 0.113572456, y: 0.23909779, z: -0.028171375, w: 0.96391904}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -15509,11 +16106,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f31b2b967bb5e5a4f8814c2410414e89, type: 3}
---- !u!4 &1655692265 stripped
+--- !u!4 &1655692265
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f31b2b967bb5e5a4f8814c2410414e89, type: 3}
   m_PrefabInstance: {fileID: 1655692264}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196513139}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1664152310
 GameObject:
   m_ObjectHideFlags: 0
@@ -15682,11 +16288,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5f862d949de8b945bb99d728121cfdb, type: 3}
---- !u!4 &1671232996 stripped
+--- !u!4 &1671232996
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e5f862d949de8b945bb99d728121cfdb, type: 3}
   m_PrefabInstance: {fileID: 1671232995}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580656839}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1691101274
 GameObject:
   m_ObjectHideFlags: 0
@@ -16142,11 +16757,20 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 46df2846a9707374dad9a173ba4ee82f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5df62c7490a101e42b66d0af9adb44f9, type: 3}
---- !u!4 &1733885274 stripped
+--- !u!4 &1733885274
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5df62c7490a101e42b66d0af9adb44f9, type: 3}
   m_PrefabInstance: {fileID: 1733885273}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948914252}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1736206397
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16228,11 +16852,20 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 46df2846a9707374dad9a173ba4ee82f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7907dcecbd951464d97868ef28979780, type: 3}
---- !u!4 &1736206398 stripped
+--- !u!4 &1736206398
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7907dcecbd951464d97868ef28979780, type: 3}
   m_PrefabInstance: {fileID: 1736206397}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801556459}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1739196145
 GameObject:
   m_ObjectHideFlags: 0
@@ -16616,6 +17249,22 @@ Transform:
   m_Father: {fileID: 2049337717}
   m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1768128603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7907dcecbd951464d97868ef28979780, type: 3}
+  m_PrefabInstance: {fileID: 1244554892}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1244554893}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper D (1) (Missing Prefab with guid: 7907dcecbd951464d97868ef28979780)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1779170975
 GameObject:
   m_ObjectHideFlags: 0
@@ -16806,6 +17455,22 @@ Transform:
   m_Father: {fileID: 1383467636}
   m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1801556459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7907dcecbd951464d97868ef28979780, type: 3}
+  m_PrefabInstance: {fileID: 1736206397}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1736206398}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper D (2) (Missing Prefab with guid: 7907dcecbd951464d97868ef28979780)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1802064016
 GameObject:
   m_ObjectHideFlags: 0
@@ -17408,6 +18073,22 @@ Transform:
   m_Father: {fileID: 1383467636}
   m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 64.834, z: 0}
+--- !u!1 &1860080328
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d39007d9880415843b1cfe3c3803d98a, type: 3}
+  m_PrefabInstance: {fileID: 1024207718}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1024207719}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper J (Missing Prefab with guid: d39007d9880415843b1cfe3c3803d98a)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1878933628
 GameObject:
   m_ObjectHideFlags: 0
@@ -18053,11 +18734,20 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 46df2846a9707374dad9a173ba4ee82f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8dad681d18f82c4398684577e56af33, type: 3}
---- !u!4 &1945794199 stripped
+--- !u!4 &1945794199
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f8dad681d18f82c4398684577e56af33, type: 3}
   m_PrefabInstance: {fileID: 1945794198}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171605548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1947955435
 GameObject:
   m_ObjectHideFlags: 0
@@ -18258,7 +18948,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 2c9612636b725d44092c5de6555a6b91, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2c9612636b725d44092c5de6555a6b91, type: 3}
       propertyPath: m_LocalScale.x
@@ -18318,7 +19008,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2c9612636b725d44092c5de6555a6b91, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2c9612636b725d44092c5de6555a6b91, type: 3}
       propertyPath: m_TagString
@@ -19409,7 +20099,7 @@ Transform:
   - {fileID: 909778922}
   - {fileID: 1753080143}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2054008094
 GameObject:
@@ -19505,7 +20195,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2083685400
 GameObject:
@@ -19669,7 +20359,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2106790030}
-  m_LocalRotation: {x: 0.09175804, y: 0.3730883, z: -0.03710982, w: 0.9225012}
+  m_LocalRotation: {x: 0.09606688, y: 0.23956953, z: -0.023829158, w: 0.9658208}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -19867,6 +20557,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2125871850}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2139777643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f8dad681d18f82c4398684577e56af33, type: 3}
+  m_PrefabInstance: {fileID: 379676067}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 379676068}
+  m_Layer: 0
+  m_Name: 'Chroma Skyscraper G (4) (Missing Prefab with guid: f8dad681d18f82c4398684577e56af33)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1001 &2146507913
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19940,16 +20646,34 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 46df2846a9707374dad9a173ba4ee82f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8dad681d18f82c4398684577e56af33, type: 3}
---- !u!4 &2146507914 stripped
+--- !u!4 &2146507914
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f8dad681d18f82c4398684577e56af33, type: 3}
   m_PrefabInstance: {fileID: 2146507913}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &543450652619431930 stripped
+  m_GameObject: {fileID: 1605534685}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 957825973}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &543450652619431930
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 3074888223325212566, guid: c5db35dcf28702c49b90347238f295f7, type: 3}
   m_PrefabInstance: {fileID: 3253441648243314796}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372806386}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1501733236}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1060244073665709272
 PrefabInstance:
   m_ObjectHideFlags: 0
