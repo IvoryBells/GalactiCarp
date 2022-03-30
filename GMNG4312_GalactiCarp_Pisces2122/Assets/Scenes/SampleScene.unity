@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -209,7 +209,7 @@ GameObject:
   - component: {fileID: 138251814}
   m_Layer: 0
   m_Name: PlayerSpawner
-  m_TagString: Untagged
+  m_TagString: Spawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -232,6 +232,12 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  thePlayer: {fileID: 0}
+  playerLoc: {x: 0, y: 0, z: 0}
+  up1: 0
+  up2: 0
+  up3: 0
+  up4: 0
 --- !u!114 &138251812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -273,6 +279,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf9598b532ef324c9958cd2132a01a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scrapCount: 0
+  scrap_goal: 0
 --- !u!1001 &142394473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2179,7 +2187,7 @@ GameObject:
   - component: {fileID: 2086673493}
   - component: {fileID: 2086673492}
   - component: {fileID: 2086673491}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -5,8 +5,8 @@ using UnityEngine;
 public class Scrap_Counter : MonoBehaviour
 {
 
-    static public int scrapCount = 0;
-    static public int scrap_goal;
+    public int scrapCount = 0;
+    public int scrap_goal;
 
     
    

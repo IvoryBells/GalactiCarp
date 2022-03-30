@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class Scrap_PickUp : MonoBehaviour
 {
-
+    public GameObject playerSpawner;
     int scrapVal = 1;
+
+    void Awake()
+    {
+        playerSpawner = GameObject.FindGameObjectWithTag("Spawner");
+    }
 
     void OnTriggerEnter(Collider Col)
     {
@@ -14,7 +19,8 @@ public class Scrap_PickUp : MonoBehaviour
             //keep track of scrap collected and add to total 
             //Display total scrap collected
 
-            Scrap_Counter.scrapCount += scrapVal;
+            //Col.gameObject.GetComponent<Scrap_Counter>().scrapCount += scrapVal;
+            playerSpawner.GetComponent<Scrap_Counter>().scrapCount += scrapVal;
 
             Destroy(gameObject);
         }
