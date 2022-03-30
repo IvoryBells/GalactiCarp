@@ -360,3 +360,28 @@ Received Import Request.
 Start importing Assets/Prefabs/-----Upgrade 1-----.prefab using Guid(f8bd0e08cdde1574da17aebb8c184311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4925ab0cf5bbd298b780abe9f5a62344') in 0.263746 seconds 
   Import took 0.312879 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 14680.857142 seconds.
+  path: Assets/Prefabs/----PLAYER----.prefab
+  artifactKey: Guid(c3e0f7928ff601846b1741664b609481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/----PLAYER----.prefab using Guid(c3e0f7928ff601846b1741664b609481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd895df3a0221e3803022f452da616c0e') in 14.434821 seconds 
+  Import took 14.612979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012057 seconds.
+  path: Assets/Prefabs/Pisces Carper Mechsuit_1.prefab
+  artifactKey: Guid(e63fdb54c2e34d241b36c1c60d8cbc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pisces Carper Mechsuit_1.prefab using Guid(e63fdb54c2e34d241b36c1c60d8cbc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61ff8fad9755209bb4ace2b5a063319') in 0.811714 seconds 
+  Import took 0.877195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000889 seconds.
+  path: Assets/Prefabs/----PLAYER----.prefab
+  artifactKey: Guid(c3e0f7928ff601846b1741664b609481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/----PLAYER----.prefab using Guid(c3e0f7928ff601846b1741664b609481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd895df3a0221e3803022f452da616c0e') in 0.068059 seconds 
+  Import took 0.403035 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
