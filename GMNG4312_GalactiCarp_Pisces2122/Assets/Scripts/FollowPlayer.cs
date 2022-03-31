@@ -26,8 +26,21 @@ public class FollowPlayer : MonoBehaviour
         }
     }
 
-   
+    private void Update()
+    {
+        vcam = GetComponent<Cinemachine.CinemachineFreeLook>();
 
-    
+        if (player == null)
+        {
+            player = GameObject.FindWithTag("Player");
+            if (player != null)
+            {
+                followTarget = player.transform;
+                vcam.LookAt = player.transform;
+                vcam.Follow = player.transform;
+            }
+        }
+    }
+
 
 }

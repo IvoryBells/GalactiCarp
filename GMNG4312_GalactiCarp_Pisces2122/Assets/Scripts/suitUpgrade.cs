@@ -10,6 +10,7 @@ public class suitUpgrade : MonoBehaviour
     public Vector3 playerLoc;
     public bool up1, up2, up3, up4 = false;
 
+
     void Start()
     {
         thePlayer = GameObject.FindGameObjectWithTag("Player");
@@ -45,5 +46,8 @@ public class suitUpgrade : MonoBehaviour
                 Instantiate(playerModel[i + 1]);
             }
     }*/
+
     }
+
+    
 }
