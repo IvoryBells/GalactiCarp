@@ -184,6 +184,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
       value: Scrap (2)
@@ -228,8 +232,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerModel:
   - {fileID: 4585876352086929412, guid: c3e0f7928ff601846b1741664b609481, type: 3}
-  - {fileID: 3627470023697133299, guid: f8bd0e08cdde1574da17aebb8c184311, type: 3}
-  - {fileID: 0}
+  - {fileID: 4628518951476479204, guid: 97e0085b72d9c374e916decb7d45f979, type: 3}
+  - {fileID: 3061897332499051327, guid: 9d25078ca59f7644c935e9de900cb5e0, type: 3}
   - {fileID: 0}
   - {fileID: 0}
   thePlayer: {fileID: 0}
@@ -238,9 +242,6 @@ MonoBehaviour:
   up2: 0
   up3: 0
   up4: 0
-  player: {fileID: 0}
-  followTarget: {fileID: 0}
-  vcam: {fileID: 0}
 --- !u!114 &138251812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -335,6 +336,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
       value: Scrap (14)
@@ -391,6 +396,10 @@ PrefabInstance:
     - target: {fileID: 3880621506733687701, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
@@ -595,6 +604,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
       value: Scrap (5)
@@ -741,6 +754,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
       value: Scrap (1)
@@ -797,6 +814,10 @@ PrefabInstance:
     - target: {fileID: 3880621506733687701, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
@@ -1232,6 +1253,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
       value: Scrap (6)
@@ -1481,6 +1506,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
       value: Scrap (3)
@@ -1669,6 +1698,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
       value: Scrap (3)
@@ -1725,6 +1758,10 @@ PrefabInstance:
     - target: {fileID: 3880621506733687701, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
@@ -1783,6 +1820,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
       value: Scrap (10)
@@ -1840,6 +1881,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
       value: Scrap (2)
@@ -1896,6 +1941,10 @@ PrefabInstance:
     - target: {fileID: 3880621506733687701, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
@@ -1958,6 +2007,10 @@ PrefabInstance:
     - target: {fileID: 3880621506733687701, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
@@ -2036,6 +2089,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
       value: Scrap (1)
@@ -2092,6 +2149,10 @@ PrefabInstance:
     - target: {fileID: 3880621506733687701, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
@@ -2170,6 +2231,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
       value: Scrap (11)
@@ -2226,6 +2291,10 @@ PrefabInstance:
     - target: {fileID: 3880621506733687701, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
@@ -2284,6 +2353,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
       value: Scrap
@@ -2341,6 +2414,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
       value: Scrap (13)
@@ -2397,6 +2474,10 @@ PrefabInstance:
     - target: {fileID: 3880621506733687701, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
@@ -2459,6 +2540,10 @@ PrefabInstance:
     - target: {fileID: 3880621506733687701, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
@@ -2527,12 +2612,117 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 1701336633}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
       value: Scrap (16)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+--- !u!1 &1701336632 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+  m_PrefabInstance: {fileID: 1701336631}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1701336633
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701336632}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1705567185
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2583,6 +2773,10 @@ PrefabInstance:
     - target: {fileID: 3880621506733687701, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
@@ -2640,6 +2834,10 @@ PrefabInstance:
     - target: {fileID: 3880621506733687701, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
@@ -2844,6 +3042,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
       value: Scrap (1)
@@ -2901,6 +3103,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
       value: Scrap (15)
@@ -2957,6 +3163,10 @@ PrefabInstance:
     - target: {fileID: 3880621506733687701, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name
@@ -3120,6 +3330,10 @@ PrefabInstance:
     - target: {fileID: 3880621506733687701, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880621506733687704, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
+      propertyPath: collectSound
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3880621506733687711, guid: 4a32eea8904a4484eb75ead513ed927e, type: 3}
       propertyPath: m_Name

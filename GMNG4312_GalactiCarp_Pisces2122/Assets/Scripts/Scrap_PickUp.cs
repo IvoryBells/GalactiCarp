@@ -6,7 +6,7 @@ public class Scrap_PickUp : MonoBehaviour
 {
     public GameObject playerSpawner;
     int scrapVal = 1;
-
+    public AudioSource collectSound;
     void Awake()
     {
         playerSpawner = GameObject.FindGameObjectWithTag("Spawner");
@@ -16,6 +16,7 @@ public class Scrap_PickUp : MonoBehaviour
     {
         if(Col.tag == "Player")
         {
+            //collectSound.Play();
             //keep track of scrap collected and add to total 
             //Display total scrap collected
 

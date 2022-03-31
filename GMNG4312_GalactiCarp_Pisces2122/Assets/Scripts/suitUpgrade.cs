@@ -30,7 +30,28 @@ public class suitUpgrade : MonoBehaviour
             Instantiate(playerModel[1], playerLoc, Quaternion.identity);
             up1 = true;
         }
-
+        else if(this.GetComponent<Scrap_Counter>().scrapCount == 20 && up2 == false)
+        {
+            playerLoc = thePlayer.transform.localPosition;
+            Destroy(thePlayer);
+            Instantiate(playerModel[2], playerLoc, Quaternion.identity);
+            up2 = true;
+        }
+        else if(this.GetComponent<Scrap_Counter>().scrapCount == 30 && up3 == false)
+        {
+            playerLoc = thePlayer.transform.localPosition;
+            Destroy(thePlayer);
+            Instantiate(playerModel[3], playerLoc, Quaternion.identity);
+            up3 = true;
+        }
+        else if(this.GetComponent<Scrap_Counter>().scrapCount == 40 && up4 == false)
+        {
+            playerLoc = thePlayer.transform.localPosition;
+            Destroy(thePlayer);
+            Instantiate(playerModel[4], playerLoc, Quaternion.identity);
+            up4 = true;
+        }
+        
         thePlayer = GameObject.FindGameObjectWithTag("Player");
         /*for (int i = 0; i < 5; i++)
         {
