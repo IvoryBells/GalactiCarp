@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.45044917, g: 0.4982754, b: 0.5635176, a: 1}
+  m_IndirectSpecularColor: {r: 0.45044947, g: 0.49827623, b: 0.56351876, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -16936,7 +16936,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04f364731e47a024facccef16520d044, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPrefab: {fileID: 4585876352086929412, guid: c3e0f7928ff601846b1741664b609481, type: 3}
+  myPrefab: {fileID: 4585876352086929412, guid: 78e4e929f815e2d4d82e42f5da424451, type: 3}
   hold: {fileID: 1370678002}
   distance: 1
 --- !u!4 &1370678004
@@ -16982,15 +16982,13 @@ MonoBehaviour:
   playerModel:
   - {fileID: 4585876352086929412, guid: c3e0f7928ff601846b1741664b609481, type: 3}
   - {fileID: 3627470023697133299, guid: f8bd0e08cdde1574da17aebb8c184311, type: 3}
+  - {fileID: 8161980950847671912, guid: 70efa618cb8415e4aa4fb053bb2bef6d, type: 3}
   thePlayer: {fileID: 0}
   playerLoc: {x: 0, y: 0, z: 0}
   up1: 0
   up2: 0
   up3: 0
   up4: 0
-  player: {fileID: 0}
-  followTarget: {fileID: 0}
-  vcam: {fileID: 0}
 --- !u!1001 &1371238774
 PrefabInstance:
   m_ObjectHideFlags: 0
