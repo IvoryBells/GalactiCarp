@@ -6697,6 +6697,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpawner: {fileID: 0}
+  collectSound: {fileID: 0}
 --- !u!135 &525448686
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9852,6 +9853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpawner: {fileID: 0}
+  collectSound: {fileID: 0}
 --- !u!135 &751971617
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -11764,6 +11766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpawner: {fileID: 0}
+  collectSound: {fileID: 0}
 --- !u!135 &957410125
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -13275,15 +13278,15 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4fdd8708086e2ac4b94b2cbb577e78de, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d256c89993503a846aefa2b6ef86e7bc, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.364
+  m_Volume: 0.157
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 100
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -16538,6 +16541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpawner: {fileID: 0}
+  collectSound: {fileID: 0}
 --- !u!135 &1296954381
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -17080,6 +17084,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpawner: {fileID: 0}
+  collectSound: {fileID: 0}
 --- !u!135 &1358600774
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -17124,7 +17129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04f364731e47a024facccef16520d044, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPrefab: {fileID: 4585876352086929412, guid: 78e4e929f815e2d4d82e42f5da424451, type: 3}
+  myPrefab: {fileID: 4628518951476479204, guid: 97e0085b72d9c374e916decb7d45f979, type: 3}
   hold: {fileID: 1370678002}
   distance: 1
 --- !u!4 &1370678004
@@ -17148,7 +17153,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1370678002}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aaf9598b532ef324c9958cd2132a01a5, type: 3}
   m_Name: 
@@ -17162,14 +17167,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1370678002}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f3295bc6d3543749aafd3e5b26c0b93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerModel:
   - {fileID: 4585876352086929412, guid: c3e0f7928ff601846b1741664b609481, type: 3}
-  - {fileID: 3627470023697133299, guid: f8bd0e08cdde1574da17aebb8c184311, type: 3}
   thePlayer: {fileID: 0}
   playerLoc: {x: 0, y: 0, z: 0}
   up1: 0
@@ -21882,6 +21886,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpawner: {fileID: 0}
+  collectSound: {fileID: 0}
 --- !u!135 &1733018716
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -26303,6 +26308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpawner: {fileID: 0}
+  collectSound: {fileID: 0}
 --- !u!135 &2049375147
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -26872,6 +26878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpawner: {fileID: 0}
+  collectSound: {fileID: 0}
 --- !u!135 &2076249902
 SphereCollider:
   m_ObjectHideFlags: 0
