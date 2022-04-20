@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.27f1 (e759542391ea) revision 15161684'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'en' Physical Memory: 16314 MB
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16308 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,113 +11,113 @@ C:\Program Files\Unity\Hub\Editor\2020.3.27f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/ProgramData/Maria/GitHubDesktop/app-2.9.6/Projects/GalactiCarp/GMNG4312_GalactiCarp_Pisces2122
+C:/Users/Annab/Documents/Projects/GalactiCarp/GMNG4312_GalactiCarp_Pisces2122
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63361
-Successfully changed project path to: C:/ProgramData/Maria/GitHubDesktop/app-2.9.6/Projects/GalactiCarp/GMNG4312_GalactiCarp_Pisces2122
-C:/ProgramData/Maria/GitHubDesktop/app-2.9.6/Projects/GalactiCarp/GMNG4312_GalactiCarp_Pisces2122
+32273
+Successfully changed project path to: C:/Users/Annab/Documents/Projects/GalactiCarp/GMNG4312_GalactiCarp_Pisces2122
+C:/Users/Annab/Documents/Projects/GalactiCarp/GMNG4312_GalactiCarp_Pisces2122
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 29.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 25.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/ProgramData/Maria/GitHubDesktop/app-2.9.6/Projects/GalactiCarp/GMNG4312_GalactiCarp_Pisces2122/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Annab/Documents/Projects/GalactiCarp/GMNG4312_GalactiCarp_Pisces2122/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 5700 XT (ID=0x731f)
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
     Vendor:   
-    VRAM:     8151 MB
-    Driver:   30.0.14011.3017
+    VRAM:     8031 MB
+    Driver:   30.0.14.9729
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002049 seconds.
+Registered in 0.001073 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 28.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 28.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.469 seconds
+- Completed reload, in  0.392 seconds
 Domain Reload Profiling:
-	ReloadAssembly (469ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (392ms)
+		BeginReloadAssembly (43ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (353ms)
-			LoadAssemblies (52ms)
+		EndReloadAssembly (301ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (117ms)
+			SetupTypeCache (94ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (131ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (120ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (29ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (62ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (59ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004954 seconds.
+Registered in 0.003746 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.848 seconds
+- Completed reload, in  0.663 seconds
 Domain Reload Profiling:
-	ReloadAssembly (849ms)
-		BeginReloadAssembly (128ms)
+	ReloadAssembly (664ms)
+		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (660ms)
-			LoadAssemblies (82ms)
+		EndReloadAssembly (527ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (226ms)
+			SetupTypeCache (179ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (252ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (204ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (168ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1673 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.2 MB.
-System memory in use after: 77.3 MB.
+Unloading 1676 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.4 MB.
+System memory in use after: 77.5 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2111.
-Total: 2.398100 ms (FindLiveObjects: 0.124600 ms CreateObjectMapping: 0.033600 ms MarkObjects: 2.186000 ms  DeleteObjects: 0.052900 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2114.
+Total: 2.431100 ms (FindLiveObjects: 0.142400 ms CreateObjectMapping: 0.044400 ms MarkObjects: 2.193700 ms  DeleteObjects: 0.049800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,72 +131,77 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15770c780ebad2127a7dba05b3837a4c') in 0.103756 seconds 
-  Import took 0.106050 seconds .
+  path: Assets/Models/Pisces Carper Mechsuit_2.fbx
+  artifactKey: Guid(95101337f71aa9d4dbca39598e8bcd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Pisces Carper Mechsuit_2.fbx using Guid(95101337f71aa9d4dbca39598e8bcd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c7d9743374596b8023a2f4f45417ff') in 0.209683 seconds 
+  Import took 0.212482 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/TextMesh Pro/Sprites
-  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cee1b573425f8b706180e9a6dbf5c9') in 0.054173 seconds 
-  Import took 0.056209 seconds .
+  Time since last request: 0.000143 seconds.
+  path: Assets/Models/Pisces Carper Mechsuit_5.fbx
+  artifactKey: Guid(39d5ad5ac932d104d98b117db6112285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Pisces Carper Mechsuit_5.fbx using Guid(39d5ad5ac932d104d98b117db6112285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8017c5b0e98ca482a9c3bc07d7622a') in 0.080456 seconds 
+  Import took 0.083404 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.961898 seconds.
-  path: Assets/TextMesh Pro/Sprites/Bar.png
-  artifactKey: Guid(4e980fed8b83da641a5771c1d07b97a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites/Bar.png using Guid(4e980fed8b83da641a5771c1d07b97a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fa470100bcdfd623b649cf7695eb57') in 0.009361 seconds 
-  Import took 0.011659 seconds .
+  Time since last request: 0.000123 seconds.
+  path: Assets/Models/Pisces Carper Mechsuit_4.fbx
+  artifactKey: Guid(86a9f1776f732e9419471ee6c7242a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Pisces Carper Mechsuit_4.fbx using Guid(86a9f1776f732e9419471ee6c7242a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487bf52e6c6118a9990b96b8395979b1') in 0.066057 seconds 
+  Import took 0.069134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Models/Chroma Skyscraper S.fbx
+  artifactKey: Guid(fb7c9f9fd8e3f6645b5c2aa0e08551c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chroma Skyscraper S.fbx using Guid(fb7c9f9fd8e3f6645b5c2aa0e08551c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891e36d24a96b97e9075f0e3d1734e14') in 0.037302 seconds 
+  Import took 0.040472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Models/Pisces Carper Mechsuit_3.fbx
+  artifactKey: Guid(426bd10c069af1b4ca75a7d654d8c130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Pisces Carper Mechsuit_3.fbx using Guid(426bd10c069af1b4ca75a7d654d8c130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41450bff6468d5c6e635f52e185184ee') in 0.071703 seconds 
+  Import took 0.074344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Models/Pisces Carper Mechsuit_1.fbx
+  artifactKey: Guid(2c9612636b725d44092c5de6555a6b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Pisces Carper Mechsuit_1.fbx using Guid(2c9612636b725d44092c5de6555a6b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616e73317c13fdde9f1a850a78e0ac61') in 0.062743 seconds 
+  Import took 0.065491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Models/Pisces Dried Fountain.fbx
+  artifactKey: Guid(e1ccea16579ffde469074ae96e586637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Pisces Dried Fountain.fbx using Guid(e1ccea16579ffde469074ae96e586637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54dbecf24400266ea513ef5c3b2d1b34') in 0.014057 seconds 
+  Import took 0.016762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Models/Pisces Bug.fbx
+  artifactKey: Guid(05191358850667341a8c5b0d96a3950c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Pisces Bug.fbx using Guid(05191358850667341a8c5b0d96a3950c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827c8d519c30618c6b74fa1a97dbdc9e') in 0.064339 seconds 
+  Import took 0.067039 seconds .
 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004183 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.796 seconds
-Domain Reload Profiling:
-	ReloadAssembly (796ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (643ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (228ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (237ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (157ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1655 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.7 MB.
-System memory in use after: 75.9 MB.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.1 MB.
+System memory in use after: 60.2 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2119.
-Total: 2.538700 ms (FindLiveObjects: 0.139500 ms CreateObjectMapping: 0.038100 ms MarkObjects: 2.346000 ms  DeleteObjects: 0.013900 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2158.
+Total: 2.805200 ms (FindLiveObjects: 0.157300 ms CreateObjectMapping: 0.043900 ms MarkObjects: 2.594100 ms  DeleteObjects: 0.009300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -210,306 +215,66 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1135.807157 seconds.
-  path: Assets/ZombiSoft/TinyHealthSystem/Bars/Frame.psd
-  artifactKey: Guid(e46ea732cedd56c478af72bf005cb89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZombiSoft/TinyHealthSystem/Bars/Frame.psd using Guid(e46ea732cedd56c478af72bf005cb89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184f0c88fa67b86d7ccbd37efcd6f3ee') in 0.057731 seconds 
-  Import took 0.061050 seconds .
+  Time since last request: 661.772385 seconds.
+  path: Assets/Scenes/VanessaTestScene.unity
+  artifactKey: Guid(07f71623f22686349b49585168224f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VanessaTestScene.unity using Guid(07f71623f22686349b49585168224f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f4750bbbebf8314c8a5a18314c6e2d') in 0.006980 seconds 
+  Import took 0.009919 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/ZombiSoft/TinyHealthSystem/Bars/HealthBar.psd
-  artifactKey: Guid(23c7b9883b8e7fc44bc0028c6224e44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZombiSoft/TinyHealthSystem/Bars/HealthBar.psd using Guid(23c7b9883b8e7fc44bc0028c6224e44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac8498081ff05eb137a82bb1618e9ba') in 0.019672 seconds 
-  Import took 0.022884 seconds .
+  Time since last request: 60.190609 seconds.
+  path: Assets/Models/Pisces Carper Mechsuit_1.fbx
+  artifactKey: Guid(2c9612636b725d44092c5de6555a6b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Pisces Carper Mechsuit_1.fbx using Guid(2c9612636b725d44092c5de6555a6b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7e2fb2d35bc54ca8dadd0b3ccd46a2') in 0.141425 seconds 
+  Import took 0.143954 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/ZombiSoft/TinyHealthSystem/Bars/ManaBar.psd
-  artifactKey: Guid(434394464ff385b44b221a3b8d4213a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZombiSoft/TinyHealthSystem/Bars/ManaBar.psd using Guid(434394464ff385b44b221a3b8d4213a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcf57ed3e768f8ecdf2efabea1ff5ad') in 0.014949 seconds 
-  Import took 0.017476 seconds .
+  Time since last request: 45.401734 seconds.
+  path: Assets/Models/Pisces Carper Mechsuit_1.fbx
+  artifactKey: Guid(2c9612636b725d44092c5de6555a6b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Pisces Carper Mechsuit_1.fbx using Guid(2c9612636b725d44092c5de6555a6b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cde912c7304f615dcb47419a4068e9b') in 0.108400 seconds 
+  Import took 0.111309 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.722474 seconds.
-  path: Assets/ZombiSoft/TinyHealthSystem/Demo/Frame.psd
-  artifactKey: Guid(ac8dd99aff6ebcb478d3cc7932a9ad3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZombiSoft/TinyHealthSystem/Demo/Frame.psd using Guid(ac8dd99aff6ebcb478d3cc7932a9ad3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a67bae5918a087bd0cda459fb361d3e') in 0.008167 seconds 
-  Import took 0.010806 seconds .
+  Time since last request: 228.658140 seconds.
+  path: Assets/Models/Pisces Bug.fbx
+  artifactKey: Guid(05191358850667341a8c5b0d96a3950c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Pisces Bug.fbx using Guid(05191358850667341a8c5b0d96a3950c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4219435303a1d2df8d05af206c9fa7e7') in 0.110827 seconds 
+  Import took 0.113847 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.658774 seconds.
-  path: Assets/ZombiSoft/TinyHealthSystem/Globes/Glass.psd
-  artifactKey: Guid(fcd2cb3d880418647a3f14bad42789e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZombiSoft/TinyHealthSystem/Globes/Glass.psd using Guid(fcd2cb3d880418647a3f14bad42789e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fdafd8c4d3e84eecd5a148d1e2e83bc') in 0.011605 seconds 
-  Import took 0.014953 seconds .
+  Time since last request: 31.601051 seconds.
+  path: Assets/Models/Pisces Carper Mechsuit_2.fbx
+  artifactKey: Guid(95101337f71aa9d4dbca39598e8bcd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Pisces Carper Mechsuit_2.fbx using Guid(95101337f71aa9d4dbca39598e8bcd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f15994be5728c1d2b956f3f2a3b8e4') in 0.124043 seconds 
+  Import took 0.127094 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/ZombiSoft/TinyHealthSystem/Globes/GlobeMask.png
-  artifactKey: Guid(b99d83fd73a161c43bb68193541e3ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZombiSoft/TinyHealthSystem/Globes/GlobeMask.png using Guid(b99d83fd73a161c43bb68193541e3ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab739c89b7d12c60125589a718b74ec') in 0.011784 seconds 
-  Import took 0.014634 seconds .
+  Time since last request: 12.923930 seconds.
+  path: Assets/Models/Pisces Carper Mechsuit_3.fbx
+  artifactKey: Guid(426bd10c069af1b4ca75a7d654d8c130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Pisces Carper Mechsuit_3.fbx using Guid(426bd10c069af1b4ca75a7d654d8c130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98d60ddee472687d5d90545800522ed') in 0.115186 seconds 
+  Import took 0.117865 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/ZombiSoft/TinyHealthSystem/Globes/HealthGlobe.psd
-  artifactKey: Guid(63d760332d7990a41a5079214726a810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZombiSoft/TinyHealthSystem/Globes/HealthGlobe.psd using Guid(63d760332d7990a41a5079214726a810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245a65c52e77a9ac65213f36272e5354') in 0.012580 seconds 
-  Import took 0.015156 seconds .
+  Time since last request: 10.538690 seconds.
+  path: Assets/Models/Pisces Carper Mechsuit_4.fbx
+  artifactKey: Guid(86a9f1776f732e9419471ee6c7242a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Pisces Carper Mechsuit_4.fbx using Guid(86a9f1776f732e9419471ee6c7242a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49eb6127aa0efc1d9085f79edce837d9') in 0.253479 seconds 
+  Import took 0.256412 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/ZombiSoft/TinyHealthSystem/Globes/ManaGlobe.psd
-  artifactKey: Guid(1c321a99202188c4292cf77fa20bde28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZombiSoft/TinyHealthSystem/Globes/ManaGlobe.psd using Guid(1c321a99202188c4292cf77fa20bde28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d662839eac79f72d0e9567b3437c952') in 0.012110 seconds 
-  Import took 0.016047 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 73.581809 seconds.
-  path: Assets/ZombiSoft/TinyHealthSystem/TinyHealthSystem.prefab
-  artifactKey: Guid(f7162b84863baba4bafb2589864e6802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZombiSoft/TinyHealthSystem/TinyHealthSystem.prefab using Guid(f7162b84863baba4bafb2589864e6802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82f8b9e0f9cca9609ba9167cdd166c1') in 0.022514 seconds 
-  Import took 0.026482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.882323 seconds.
-  path: Assets/ZombiSoft/TinyHealthSystem/TinyHealthSystem.pdf
-  artifactKey: Guid(cebc2934d7c468f46a996af3d94343db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZombiSoft/TinyHealthSystem/TinyHealthSystem.pdf using Guid(cebc2934d7c468f46a996af3d94343db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884ae86655801ab9d1464b85ed70837b') in 0.004790 seconds 
-  Import took 0.007234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 92.631666 seconds.
-  path: Assets/ZombiSoft/TinyHealthSystem/Demo/DemoScene.unity
-  artifactKey: Guid(730c50460715a514483f8f482da1a730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZombiSoft/TinyHealthSystem/Demo/DemoScene.unity using Guid(730c50460715a514483f8f482da1a730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c78dcdae7a981abb2c496e732e15e6') in 0.007518 seconds 
-  Import took 0.009896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.232507 seconds.
-  path: Assets/ZombiSoft/TinyHealthSystem/Globes/HealthGlobe.controller
-  artifactKey: Guid(cf224221ec970ea48950bcfd8c5146fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZombiSoft/TinyHealthSystem/Globes/HealthGlobe.controller using Guid(cf224221ec970ea48950bcfd8c5146fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72e6ac0235d1dbc0466f1e91b4213a9') in 0.004835 seconds 
-  Import took 0.007310 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.916814 seconds.
-  path: Assets/ZombiSoft/TinyHealthSystem/Demo/Demo.cs
-  artifactKey: Guid(28d345066ba382b4cb3bc51aaf8dc67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZombiSoft/TinyHealthSystem/Demo/Demo.cs using Guid(28d345066ba382b4cb3bc51aaf8dc67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa8663c62305f03a39683def7fe47b6') in 0.019413 seconds 
-  Import took 0.021840 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.788850 seconds.
-  path: Assets/ZombiSoft/TinyHealthSystem/Demo/Fonts
-  artifactKey: Guid(3c60a02de96544145a3b21cebd3193c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZombiSoft/TinyHealthSystem/Demo/Fonts using Guid(3c60a02de96544145a3b21cebd3193c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cd62efb57329c16ba8da74de89a4f7') in 0.005692 seconds 
-  Import took 0.008209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.293142 seconds.
-  path: Assets/ZombiSoft/TinyHealthSystem/Demo/Fonts/Pixelnauts.ttf
-  artifactKey: Guid(810eae3ac5e0d4444a7eb4576a501aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZombiSoft/TinyHealthSystem/Demo/Fonts/Pixelnauts.ttf using Guid(810eae3ac5e0d4444a7eb4576a501aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac53cf333a49ee556f3ba32f7b97d862') in 0.057238 seconds 
-  Import took 0.060681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.117622 seconds.
-  path: Assets/ZombiSoft/TinyHealthSystem/HealthSystem.cs
-  artifactKey: Guid(7875c39547040924ba157aab059c2394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZombiSoft/TinyHealthSystem/HealthSystem.cs using Guid(7875c39547040924ba157aab059c2394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27fb1f409ea48a7fe9d0f05f522b71f') in 0.006095 seconds 
-  Import took 0.008414 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004670 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.861 seconds
-Domain Reload Profiling:
-	ReloadAssembly (861ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (697ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (238ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (267ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (176ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1655 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 79.2 MB.
-System memory in use after: 79.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2174.
-Total: 2.490300 ms (FindLiveObjects: 0.133300 ms CreateObjectMapping: 0.036500 ms MarkObjects: 2.306300 ms  DeleteObjects: 0.011700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 109.279737 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3088a49b220503b9eb42063d340e8c27') in 0.016359 seconds 
-  Import took 0.018979 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 74.295352 seconds.
-  path: Assets/ZombiSoft/TinyHealthSystem/Globes
-  artifactKey: Guid(de55435708db44e4783106480d2eb382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZombiSoft/TinyHealthSystem/Globes using Guid(de55435708db44e4783106480d2eb382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ecd364bd9aacfd84fe3f0175ba1aadb') in 0.006126 seconds 
-  Import took 0.009437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2240.287857 seconds.
-  path: Assets/ZombiSoft/TinyHealthSystem/Demo
-  artifactKey: Guid(d0e5dabc8f8cec8478afee40d6539f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZombiSoft/TinyHealthSystem/Demo using Guid(d0e5dabc8f8cec8478afee40d6539f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb3185a2e09d2560d49cecad810c587') in 0.005549 seconds 
-  Import took 0.009280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.330862 seconds.
-  path: Assets/ZombiSoft/TinyHealthSystem/Demo/DemoScene.unity
-  artifactKey: Guid(730c50460715a514483f8f482da1a730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZombiSoft/TinyHealthSystem/Demo/DemoScene.unity using Guid(730c50460715a514483f8f482da1a730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db2f19c52beece2ba830e960e8d1f65') in 0.005245 seconds 
-  Import took 0.009012 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004469 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.787 seconds
-Domain Reload Profiling:
-	ReloadAssembly (787ms)
-		BeginReloadAssembly (96ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (638ms)
-			LoadAssemblies (79ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (221ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (239ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (156ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1655 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 79.3 MB.
-System memory in use after: 79.4 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2176.
-Total: 2.486000 ms (FindLiveObjects: 0.138100 ms CreateObjectMapping: 0.034700 ms MarkObjects: 2.299500 ms  DeleteObjects: 0.012400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1107.666639 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3f5becdfa8755e1d4a1d259beaea75') in 0.013676 seconds 
-  Import took 0.016819 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 195.183472 seconds.
-  path: Assets/ZombiSoft/TinyHealthSystem/Globes/ManaGlobe.anim
-  artifactKey: Guid(699649be905c1df46899fcefad872176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZombiSoft/TinyHealthSystem/Globes/ManaGlobe.anim using Guid(699649be905c1df46899fcefad872176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b516737ded7fd14a1cfc5389b291c01f') in 0.008115 seconds 
-  Import took 0.012916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.014088 seconds.
-  path: Assets/ZombiSoft/TinyHealthSystem/Globes/ManaGlobe.controller
-  artifactKey: Guid(653771f2782db8441a28ebc38a846ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZombiSoft/TinyHealthSystem/Globes/ManaGlobe.controller using Guid(653771f2782db8441a28ebc38a846ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1043d72e27b880b8e6cf8ba2f4b7d77c') in 0.003503 seconds 
-  Import took 0.007539 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.955486 seconds.
-  path: Assets/ZombiSoft/TinyHealthSystem/Globes/HealthGlobe.anim
-  artifactKey: Guid(ab3e12f81b4f8064281dbb73b1ab8516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ZombiSoft/TinyHealthSystem/Globes/HealthGlobe.anim using Guid(ab3e12f81b4f8064281dbb73b1ab8516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431a618983e09916b12c73a329981ab7') in 0.005738 seconds 
-  Import took 0.009094 seconds .
+  Time since last request: 19.236049 seconds.
+  path: Assets/Models/Pisces Carper Mechsuit_5.fbx
+  artifactKey: Guid(39d5ad5ac932d104d98b117db6112285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Pisces Carper Mechsuit_5.fbx using Guid(39d5ad5ac932d104d98b117db6112285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e349457163e69ae74d99c2304d8e36e8') in 0.114188 seconds 
+  Import took 0.117289 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
