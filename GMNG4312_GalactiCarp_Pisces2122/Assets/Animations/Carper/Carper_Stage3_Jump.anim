@@ -3079,7 +3079,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Armature.001/Body.Lower/Leg.Motor.L/Leg.L/Boot.L
+    path: Armature.001/Body.Lower/Body.Upper/Carper.002/Carper.003
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3089,7 +3089,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Armature.001/Body.Lower/Leg.Motor.L/Leg.L/Boot.L
+    path: Armature.001/Body.Lower/Body.Upper/Carper.002/Carper.003
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3099,7 +3099,37 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Armature.001/Body.Lower/Leg.Motor.L/Leg.L/Boot.L
+    path: Armature.001/Body.Lower/Body.Upper/Carper.002/Carper.003
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Armature.001/Body.Lower/Body.Upper/Arm.Base.L
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Armature.001/Body.Lower/Body.Upper/Arm.Base.L
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Armature.001/Body.Lower/Body.Upper/Arm.Base.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3139,7 +3169,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Armature.001/Body.Lower/Body.Upper/Arm.Base.R
+    path: Armature.001/Body.Lower/Body.Upper/Carper.002
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3149,7 +3179,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Armature.001/Body.Lower/Body.Upper/Arm.Base.R
+    path: Armature.001/Body.Lower/Body.Upper/Carper.002
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3159,7 +3189,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Armature.001/Body.Lower/Body.Upper/Arm.Base.R
+    path: Armature.001/Body.Lower/Body.Upper/Carper.002
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3229,7 +3259,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Armature.001/Body.Lower/Body.Upper/Arm.Base.L
+    path: Armature.001/Body.Lower/Leg.Motor.L/Leg.L/Boot.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3239,7 +3269,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Armature.001/Body.Lower/Body.Upper/Arm.Base.L
+    path: Armature.001/Body.Lower/Leg.Motor.L/Leg.L/Boot.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3249,7 +3279,37 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Armature.001/Body.Lower/Body.Upper/Arm.Base.L
+    path: Armature.001/Body.Lower/Leg.Motor.L/Leg.L/Boot.L
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Armature.001/Body.Lower/Body.Upper/Arm.Base.R
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Armature.001/Body.Lower/Body.Upper/Arm.Base.R
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Armature.001/Body.Lower/Body.Upper/Arm.Base.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3280,66 +3340,6 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
     path: Armature.001/Body.Lower/Leg.Motor.R/Leg.R/Boot.R
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Armature.001/Body.Lower/Body.Upper/Carper.002/Carper.003
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Armature.001/Body.Lower/Body.Upper/Carper.002/Carper.003
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Armature.001/Body.Lower/Body.Upper/Carper.002/Carper.003
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Armature.001/Body.Lower/Body.Upper/Carper.002
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Armature.001/Body.Lower/Body.Upper/Carper.002
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Armature.001/Body.Lower/Body.Upper/Carper.002
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
