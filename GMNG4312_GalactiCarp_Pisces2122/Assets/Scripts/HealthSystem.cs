@@ -22,12 +22,13 @@ public class HealthSystem : MonoBehaviour
 	public float hitPoint = 100f;
 	public float maxHitPoint = 100f;
 
+	
 	public Image currentManaBar;
 	public Image currentManaGlobe;
 	public Text manaText;
 	public float manaPoint = 100f;
 	public float maxManaPoint = 100f;
-
+	
 	//==============================================================
 	// Regenerate Health & Mana
 	//==============================================================
@@ -77,12 +78,10 @@ public class HealthSystem : MonoBehaviour
 			if (GodMode)
 			{
 				HealDamage(maxHitPoint);
-				RestoreMana(maxManaPoint);
 			}
 			else
 			{
-				HealDamage(regen);
-				RestoreMana(regen);				
+				HealDamage(regen);			
 			}
 
 			UpdateGraphics();
@@ -137,6 +136,7 @@ public class HealthSystem : MonoBehaviour
 	//==============================================================
 	// Mana Logic
 	//==============================================================
+	
 	private void UpdateManaBar()
 	{
 		float ratio = manaPoint / maxManaPoint;
@@ -174,7 +174,7 @@ public class HealthSystem : MonoBehaviour
 		
 		UpdateGraphics();
 	}
-
+	
 	//==============================================================
 	// Update all Bars & Globes UI graphics
 	//==============================================================
@@ -182,8 +182,6 @@ public class HealthSystem : MonoBehaviour
 	{
 		UpdateHealthBar();
 		UpdateHealthGlobe();
-		UpdateManaBar();
-		UpdateManaGlobe();
 	}
 
 	//==============================================================
@@ -193,7 +191,7 @@ public class HealthSystem : MonoBehaviour
 	{
 		// Player gets hurt. Do stuff.. play anim, sound..
 
-		PopupText.Instance.Popup("Ouch!", 1f, 1f); // Demo stuff!
+		//PopupText.Instance.Popup("Ouch!", 1f, 1f); // Demo stuff!
 
 		if (hitPoint < 1) // Health is Zero!!
 		{
@@ -210,7 +208,7 @@ public class HealthSystem : MonoBehaviour
 	IEnumerator PlayerDied()
 	{
 		// Player is dead. Do stuff.. play anim, sound..
-		PopupText.Instance.Popup("You have died!", 1f, 1f); // Demo stuff!
+		//PopupText.Instance.Popup("You have died!", 1f, 1f); // Demo stuff!
 
 		yield return null;
 	}
