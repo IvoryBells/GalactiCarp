@@ -10,13 +10,13 @@ public class EnemyAI : MonoBehaviour
 
     public Transform player;
 
-    public LayerMask whatIsGround;
+    public LayerMask whatIsGround, whatIsPlayer;
 
     public float health;
     //attacking Gate
     public Vector3 walkPoint;
     bool walkPointSet;
-    public float walkPointRange, whatIsPlayer;
+    public float walkPointRange;
 
     //attacking player
     public float timeBetweenAttacks;
@@ -91,7 +91,7 @@ public class EnemyAI : MonoBehaviour
         alreadyAttacked = false;
     }
 
-    public void takeDamage(int damage)
+    public void takeDamage(float damage)
     {
         health -= damage;
 

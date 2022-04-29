@@ -293,7 +293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerModel:
-  - {fileID: 4585876352086929412, guid: c3e0f7928ff601846b1741664b609481, type: 3}
+  - {fileID: 4585876352086929412, guid: 78e4e929f815e2d4d82e42f5da424451, type: 3}
   - {fileID: 3627470023697133299, guid: f8bd0e08cdde1574da17aebb8c184311, type: 3}
   - {fileID: 7033429881961050779, guid: 00f35207f5c23e941af67ee058c90926, type: 3}
   - {fileID: 3061897332499051327, guid: 9d25078ca59f7644c935e9de900cb5e0, type: 3}
@@ -316,7 +316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04f364731e47a024facccef16520d044, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPrefab: {fileID: 4585876352086929412, guid: c3e0f7928ff601846b1741664b609481, type: 3}
+  myPrefab: {fileID: 4585876352086929412, guid: 78e4e929f815e2d4d82e42f5da424451, type: 3}
   hold: {fileID: 138251810}
   distance: 1
 --- !u!4 &138251813
@@ -689,7 +689,6 @@ GameObject:
   - component: {fileID: 349864142}
   - component: {fileID: 349864141}
   - component: {fileID: 349864140}
-  - component: {fileID: 349864139}
   - component: {fileID: 349864144}
   m_Layer: 0
   m_Name: w
@@ -698,34 +697,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &349864139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 349864138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c3ceb37895e7d6439388aa46ae763de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Bug: {fileID: 349864144}
-  player: {fileID: 7661902488011324638, guid: 97e0085b72d9c374e916decb7d45f979, type: 3}
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 8
-  whatIsPlayer:
-    serializedVersion: 2
-    m_Bits: 0
-  health: 100
-  walkPoint: {x: 0, y: 0, z: 0}
-  walkPointRange: 5
-  timeBetweenAttacks: 0.5
-  sightRange: 20
-  attackRange: 2
-  playerInSightRange: 0
-  playerInattackRange: 0
 --- !u!65 &349864140
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4392,8 +4363,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 996, y: 428.90723}
-  m_SizeDelta: {x: 1583.1, y: 1622.6006}
+  m_AnchoredPosition: {x: 974.2251, y: 436.16553}
+  m_SizeDelta: {x: 1706.9203, y: 1581.3271}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2086673490
 GameObject:
