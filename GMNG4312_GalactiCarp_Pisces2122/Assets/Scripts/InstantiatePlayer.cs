@@ -6,6 +6,7 @@ public class InstantiatePlayer : MonoBehaviour
 {
     public GameObject myPrefab;
     public GameObject hold;
+    
     //public Transform camThird;
     
 
