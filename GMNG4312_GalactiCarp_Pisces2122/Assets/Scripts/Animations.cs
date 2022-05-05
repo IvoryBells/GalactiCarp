@@ -22,7 +22,7 @@ public class Animations : MonoBehaviour
         bool isWalking = animate.GetBool(isWalkingHash);
         bool isJumping = animate.GetBool(isJumpingHash);
         bool forwardPress = Input.GetKey("w");
-        bool jumpPress = Input.GetKey("Space");
+        bool jumpPress = Input.GetKey(KeyCode.Space);
 
         if(!isWalking && forwardPress)
         {
@@ -38,13 +38,13 @@ public class Animations : MonoBehaviour
 
         if (!isJumping && jumpPress)
         {
-            animate.SetBool(isWalkingHash, true);
+            animate.SetBool(isJumpingHash, true);
 
         }
 
         if (isJumping && !jumpPress)
         {
-            animate.SetBool(isWalkingHash, false);
+            animate.SetBool(isJumpingHash, false);
 
         }
     }
