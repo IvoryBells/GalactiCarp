@@ -67,7 +67,7 @@ MonoBehaviour:
   controller: {fileID: 2454942186266316944}
   cam: {fileID: 0}
   groundCheck: {fileID: 5500264786096385980}
-  groundDistance: 0.53
+  groundDistance: 0.48
   groundMask:
     serializedVersion: 2
     m_Bits: 8

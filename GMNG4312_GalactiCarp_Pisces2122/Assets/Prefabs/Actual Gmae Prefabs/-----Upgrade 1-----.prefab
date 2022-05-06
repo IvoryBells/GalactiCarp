@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5442803111070192622}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.65, z: 0}
+  m_LocalPosition: {x: 0, y: -2.71, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7348943061538372568}
@@ -97,13 +97,13 @@ MonoBehaviour:
   controller: {fileID: 8734038004207788840}
   cam: {fileID: 0}
   groundCheck: {fileID: 7247538900589560706}
-  groundDistance: 0.67
+  groundDistance: 0.71
   groundMask:
     serializedVersion: 2
     m_Bits: 8
   speed: 14
   gravity: -9.81
-  jumpHeight: 5
+  jumpHeight: 7
   isGrounded: 0
   turnSmoothTime: 0.1
 --- !u!1001 &4216580247712681032

@@ -9,17 +9,17 @@ C:\Program Files\Unity\Hub\Editor\2020.3.27f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker0
+AssetImportWorker45
 -projectPath
 C:/Users/rona/Documents/GitHub/GalactiCarp/GMNG4312_GalactiCarp_Pisces2122
 -logFile
-Logs/AssetImportWorker0.log
+Logs/AssetImportWorker45.log
 -srvPort
 59040
 Successfully changed project path to: C:/Users/rona/Documents/GitHub/GalactiCarp/GMNG4312_GalactiCarp_Pisces2122
 C:/Users/rona/Documents/GitHub/GalactiCarp/GMNG4312_GalactiCarp_Pisces2122
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 1203.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 705.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Resources/UnitySubsystems
@@ -35,5 +35,4 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
-Begin MonoManager ReloadAssembly
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
