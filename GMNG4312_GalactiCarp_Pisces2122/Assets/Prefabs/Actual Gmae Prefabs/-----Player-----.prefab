@@ -71,9 +71,9 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 8
-  speed: 11
+  speed: 14
   gravity: -9.81
-  jumpHeight: 3
+  jumpHeight: 0
   isGrounded: 0
   turnSmoothTime: 0.1
 --- !u!1 &8855056541815118061

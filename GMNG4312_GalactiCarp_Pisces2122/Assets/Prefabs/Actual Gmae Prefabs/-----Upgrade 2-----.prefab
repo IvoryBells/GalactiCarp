@@ -477,7 +477,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 8
-  speed: 16
+  speed: 18
   gravity: -9.81
   jumpHeight: 10
   isGrounded: 0

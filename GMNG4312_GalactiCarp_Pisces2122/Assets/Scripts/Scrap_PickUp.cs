@@ -16,7 +16,7 @@ public class Scrap_PickUp : MonoBehaviour
     {
         if(Col.tag == "Player")
         {
-            //collectSound.Play();
+            collectSound.Play();
             //keep track of scrap collected and add to total 
             //Display total scrap collected
 
