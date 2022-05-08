@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: a424296b78726154c9e0d0f509fc8e2d, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -25556,6 +25556,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1238626449592043609, guid: 2e24274fdf09f364fa8f0d56b4c9d14a, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ea7b3bb4210e9649af927606fbf810c, type: 2}
     - target: {fileID: 1836101402132562661, guid: 2e24274fdf09f364fa8f0d56b4c9d14a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0528
@@ -25624,6 +25628,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.00595163
       objectReference: {fileID: 0}
+    - target: {fileID: 4172573585922320403, guid: 2e24274fdf09f364fa8f0d56b4c9d14a, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ea7b3bb4210e9649af927606fbf810c, type: 2}
     - target: {fileID: 4800453972180960896, guid: 2e24274fdf09f364fa8f0d56b4c9d14a, type: 3}
       propertyPath: m_Name
       value: Pisces Carper Mechsuit_1 1
@@ -25684,6 +25692,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6348955616358375363, guid: 2e24274fdf09f364fa8f0d56b4c9d14a, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ea7b3bb4210e9649af927606fbf810c, type: 2}
     - target: {fileID: 6916556328192351640, guid: 2e24274fdf09f364fa8f0d56b4c9d14a, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
