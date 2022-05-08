@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/OfficialGameLevels/Level_1.unity
     guid: 582db6896e8e9ac4b854cb4260354197
   - enabled: 1
+    path: Assets/Scenes/OfficialGameLevels/Level_2_Cutscene.unity
+    guid: e79df5ad831458f4bb92ea3227933c91
+  - enabled: 1
     path: Assets/Scenes/OfficialGameLevels/Level_2.unity
     guid: e786d3e2eb3cd0d43a542bfd191879e7
   m_configObjects: {}
