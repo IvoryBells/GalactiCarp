@@ -45,13 +45,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2
-  m_Radius: 7.27
+  m_Height: 8.63
+  m_Radius: 2.44
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: -2.71, z: 0}
 --- !u!114 &7223674639836432914
 MonoBehaviour:
   m_ObjectHideFlags: 0
