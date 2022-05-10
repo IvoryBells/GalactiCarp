@@ -6,7 +6,7 @@ public class Shooting : MonoBehaviour
 {
     public float damage = 10f;
     public float range = 100f;
-
+    
     public Camera tpsCam;
     // Start is called before the first frame update
     void Start()
@@ -30,10 +30,24 @@ public class Shooting : MonoBehaviour
         {
             Debug.Log(hit.transform.name);
 
-            HarmEnemy  enemy = hit.transform.GetComponent<HarmEnemy>();
-            if(enemy != null)
+            HarmEnemy enemy = hit.transform.GetComponent<HarmEnemy>();
+
+            
+            if(hit.transform.name == "Pisces Bug")
             {
-                enemy.TakeDamage(damage);
+                if (enemy != null)
+                {
+                    enemy.TakeDamage(damage);
+                }
+            }
+
+            if(hit.transform.name == "Pisces Bug Queen")
+            {
+                if (enemy != null)
+                {
+                    enemy.BossTakeDamage(damage);
+                }
+
             }
 
         }
