@@ -19768,6 +19768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf9598b532ef324c9958cd2132a01a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  theKey: {fileID: 383706447}
   scrapCount: 0
   scrap_goal: 0
 --- !u!114 &1370678006

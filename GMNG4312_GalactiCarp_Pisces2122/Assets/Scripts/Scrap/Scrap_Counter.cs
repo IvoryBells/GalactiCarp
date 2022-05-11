@@ -4,11 +4,21 @@ using UnityEngine;
 
 public class Scrap_Counter : MonoBehaviour
 {
-
+    public GameObject theKey;
     public int scrapCount = 0;
     public int scrap_goal;
 
-    
+    void Update()
+    {
+        if(scrapCount!=50)
+        {
+            theKey.SetActive(false);
+        }
+        else
+        {
+            theKey.SetActive(true);
+        }
+    }
    
 
     void OnGUI()
