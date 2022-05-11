@@ -42,6 +42,7 @@ public class EnemyMovement : MonoBehaviour
             player = GameObject.FindWithTag("Player");
             if (player != null)
             {
+                Destination = player.transform;
                 Vector3 targetVector = player.transform.position;
                 navMeshAgent.SetDestination(targetVector);
             }
