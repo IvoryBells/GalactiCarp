@@ -6,25 +6,31 @@ using UnityEngine.AI;
 
 public class EnemyMovement : MonoBehaviour
 {
-    [SerializeField]
-    Transform Destination;
+
+    public Transform Destination;
     GameObject player;
+    public NavMeshAgent navMeshAgent;
+    public LayerMask whatIsGround, whatIsPlayer;
 
-    NavMeshAgent navMeshAgent;
+    public float timeBetweenAttacks;
+    bool alreadyAttacked;
 
+    public float attackRange;
+    public bool playerInAttackRange;
 
     // Start is called before the first frame update
+
+    private void Awake()
+    {
+        setDestination();
+        navMeshAgent = this.GetComponent<NavMeshAgent>();
+    }
+
     void Start()
     {
-        navMeshAgent = this.GetComponent<NavMeshAgent>();
-
         if(navMeshAgent == null)
         {
             Debug.LogError("the nav mesh agent component is not attated to " + gameObject.name);
-        }
-        else
-        {
-            setDestination();
         }
     }
 
@@ -32,8 +38,22 @@ public class EnemyMovement : MonoBehaviour
     private void Update()
     {
         setDestination();
+
+        playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
+
+        if (!playerInAttackRange)
+        {
+            ChasePlayer();
+        }
+
+        if (playerInAttackRange)
+        {
+            AttackPlayer();
+        }
+
     }
 
+    //patrolling
     private void setDestination()
     {
 
@@ -48,4 +68,32 @@ public class EnemyMovement : MonoBehaviour
             }
         }
     }
+
+    //Attacking
+    private void AttackPlayer()
+    {
+        navMeshAgent.SetDestination(Destination.position);
+
+        transform.LookAt(Destination.position);
+
+        if(!alreadyAttacked)
+        {
+            HealthSystem.PlayerHealth.TakeDamage(15);
+
+            alreadyAttacked = true;
+            Invoke(nameof(ResetAttack), timeBetweenAttacks);
+        }
+    }
+
+    private void ResetAttack()
+    {
+        alreadyAttacked = false;
+    }
+
+    private void ChasePlayer()
+    {
+        navMeshAgent.SetDestination(Destination.position);
+
+    }
+
 }
