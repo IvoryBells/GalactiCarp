@@ -14,7 +14,7 @@ public class NextLevelCollectible : MonoBehaviour
 
     void OnTriggerEnter(Collider Col)
     {
-        if (Col.tag == "Player")
+        if (Col.tag == "Player" && playerSpawner.GetComponent<Scrap_Counter>().scrapCount >= 50)
         {
             //collectSound.Play();
             UnityEngine.SceneManagement.SceneManager.LoadScene("Level_2_Cutscene");

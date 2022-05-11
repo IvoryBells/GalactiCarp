@@ -15,11 +15,7 @@ public class Scrap_Counter : MonoBehaviour
     {
         GUI.skin.box.fontSize = 35;
 
-        /*if (scrapCount < 10)
-        {
-            scrap_goal = 10;
-        }
-        */
+        
         for(int i = 0;i < 5; i++)
         {
             if (scrapCount<(i+1)*10)
@@ -27,12 +23,6 @@ public class Scrap_Counter : MonoBehaviour
                 scrap_goal = (i+1) * 10;
                 break;
             }
-
-            //if(scrapCount >= 20 && scrapCount < 40)
-           // {
-
-
-           // }
         }
 
         GUI.Box(new Rect(10, 10, 400, 100), "Scrap collected: " + scrapCount + "/" + scrap_goal);

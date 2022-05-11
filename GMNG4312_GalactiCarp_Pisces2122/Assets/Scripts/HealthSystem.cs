@@ -16,18 +16,10 @@ public class HealthSystem : MonoBehaviour
 {
 	public static HealthSystem Instance;
 
-	public Image currentHealthBar;
 	public Image currentHealthGlobe;
 	public Text healthText;
 	public float hitPoint = 100f;
 	public float maxHitPoint = 100f;
-
-	
-	public Image currentManaBar;
-	public Image currentManaGlobe;
-	public Text manaText;
-	public float manaPoint = 100f;
-	public float maxManaPoint = 100f;
 	
 	//==============================================================
 	// Regenerate Health & Mana
@@ -93,18 +85,11 @@ public class HealthSystem : MonoBehaviour
 	//==============================================================
 	// Health Logic
 	//==============================================================
-	private void UpdateHealthBar()
-	{
-		float ratio = hitPoint / maxHitPoint;
-		currentHealthBar.rectTransform.localPosition = new Vector3(currentHealthBar.rectTransform.rect.width * ratio - currentHealthBar.rectTransform.rect.width, 0, 0);
-		healthText.text = hitPoint.ToString ("0") + "/" + maxHitPoint.ToString ("0");
-	}
 
 	private void UpdateHealthGlobe()
 	{
 		float ratio = hitPoint / maxHitPoint;
 		currentHealthGlobe.rectTransform.localPosition = new Vector3(0, currentHealthGlobe.rectTransform.rect.height * ratio - currentHealthGlobe.rectTransform.rect.height, 0);
-		healthText.text = hitPoint.ToString("0") + "/" + maxHitPoint.ToString("0");
 	}
 
 	public void TakeDamage(float Damage)
@@ -132,55 +117,12 @@ public class HealthSystem : MonoBehaviour
 
 		UpdateGraphics();
 	}
-
-	//==============================================================
-	// Mana Logic
-	//==============================================================
-	
-	private void UpdateManaBar()
-	{
-		float ratio = manaPoint / maxManaPoint;
-		currentManaBar.rectTransform.localPosition = new Vector3(currentManaBar.rectTransform.rect.width * ratio - currentManaBar.rectTransform.rect.width, 0, 0);
-		manaText.text = manaPoint.ToString ("0") + "/" + maxManaPoint.ToString ("0");
-	}
-
-	private void UpdateManaGlobe()
-	{
-		float ratio = manaPoint / maxManaPoint;
-		currentManaGlobe.rectTransform.localPosition = new Vector3(0, currentManaGlobe.rectTransform.rect.height * ratio - currentManaGlobe.rectTransform.rect.height, 0);
-		manaText.text = manaPoint.ToString("0") + "/" + maxManaPoint.ToString("0");
-	}
-
-	public void UseMana(float Mana)
-	{
-		manaPoint -= Mana;
-		if (manaPoint < 1) // Mana is Zero!!
-			manaPoint = 0;
-
-		UpdateGraphics();
-	}
-
-	public void RestoreMana(float Mana)
-	{
-		manaPoint += Mana;
-		if (manaPoint > maxManaPoint) 
-			manaPoint = maxManaPoint;
-
-		UpdateGraphics();
-	}
-	public void SetMaxMana(float max)
-	{
-		maxManaPoint += (int)(maxManaPoint * max / 100);
-		
-		UpdateGraphics();
-	}
 	
 	//==============================================================
 	// Update all Bars & Globes UI graphics
 	//==============================================================
 	private void UpdateGraphics()
 	{
-		UpdateHealthBar();
 		UpdateHealthGlobe();
 	}
 
