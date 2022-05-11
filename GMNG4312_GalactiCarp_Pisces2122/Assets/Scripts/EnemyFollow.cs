@@ -8,6 +8,7 @@ public class EnemyFollow : MonoBehaviour
     public GameObject myTarget;
     public NavMeshAgent myagent;
     public int range;
+    public Transform Player;
 
 
     // Start is called before the first frame update
@@ -22,7 +23,9 @@ public class EnemyFollow : MonoBehaviour
         float dist = Vector3.Distance(this.transform.position, myTarget.transform.position);
         if (dist < range)
         {
+            transform.LookAt(Player);
             myagent.destination = myTarget.transform.position;
+            myagent.SetDestination(Player.position);
         }
-    }
+    }   
 }
