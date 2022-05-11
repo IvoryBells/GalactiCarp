@@ -1321,7 +1321,7 @@ GameObject:
   - component: {fileID: 2003739201081358242}
   - component: {fileID: 929441417655341497}
   - component: {fileID: 6584949968999423014}
-  - component: {fileID: 6637818741195920598}
+  - component: {fileID: 4289679127648193619}
   m_Layer: 0
   m_Name: Pisces Bug
   m_TagString: Untagged
@@ -1385,7 +1385,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 4.04
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1410,7 +1410,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 2.5
   m_Center: {x: -0.5, y: 0.8, z: 0}
---- !u!114 &6637818741195920598
+--- !u!114 &4289679127648193619
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1419,10 +1419,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 5072542297006487394}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfd72e7deda8288409319d4ecb89f020, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e68cef85606e4c458fac82b4b54c75b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Destination: {fileID: 0}
+  myTarget: {fileID: 0}
+  myagent: {fileID: 929441417655341497}
+  range: 30
 --- !u!1 &5337087648048863214
 GameObject:
   m_ObjectHideFlags: 0
