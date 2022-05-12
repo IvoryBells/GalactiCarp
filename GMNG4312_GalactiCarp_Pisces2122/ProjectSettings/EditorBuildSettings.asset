@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OfficialGameLevels/Level_2.unity
     guid: e786d3e2eb3cd0d43a542bfd191879e7
+  - enabled: 1
+    path: Assets/Scenes/OfficialGameLevels/Win_Screen.unity
+    guid: e45490af923e44c4c9536bde4723d85d
+  - enabled: 1
+    path: Assets/Scenes/OfficialGameLevels/Lose_Screen.unity
+    guid: 71d0581d7931df048a70b4e2b27f4a20
   m_configObjects: {}

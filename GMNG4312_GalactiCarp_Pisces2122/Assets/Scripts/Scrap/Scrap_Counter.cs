@@ -7,6 +7,14 @@ public class Scrap_Counter : MonoBehaviour
     public GameObject theKey;
     public int scrapCount = 0;
     public int scrap_goal;
+    public GameObject playerCam;
+    public GameObject remoteCam;
+    public bool setScrapCount = false;
+
+    void Start ()
+    {
+        remoteCam.SetActive(false);
+    }
 
     void Update()
     {
@@ -16,7 +24,14 @@ public class Scrap_Counter : MonoBehaviour
         }
         else
         {
-            theKey.SetActive(true);
+            if(setScrapCount != true)
+            {
+                playerCam.SetActive(false);
+                remoteCam.SetActive(true);
+                theKey.SetActive(true);
+                setScrapCount = true;
+            }
+            
         }
     }
    
@@ -36,5 +51,5 @@ public class Scrap_Counter : MonoBehaviour
         }
 
         GUI.Box(new Rect(10, 10, 400, 100), "Scrap collected: " + scrapCount + "/" + scrap_goal);
-    }
+    }    
 }
