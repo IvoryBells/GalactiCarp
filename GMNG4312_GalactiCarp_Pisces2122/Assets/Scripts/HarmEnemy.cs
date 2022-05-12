@@ -26,7 +26,7 @@ public class HarmEnemy : MonoBehaviour
 
             if (this.tag == "Enemy")
             {
-                TakeDamage(10);
+                EnemyTakeDamage(10);
             }
             if(this.tag == "Boss")
             {
@@ -45,6 +45,22 @@ public class HarmEnemy : MonoBehaviour
         void Die()
         {
             
+            Destroy(gameObject);
+            player.GetComponent<winCondition>().bugsDead++;
+        }
+    }
+
+    public void EnemyTakeDamage(float amount)
+    {
+        health -= amount;
+        if (health <= 0f)
+        {
+            Die();
+        }
+
+        void Die()
+        {
+
             Destroy(gameObject);
             player.GetComponent<winCondition>().bugsDead++;
         }

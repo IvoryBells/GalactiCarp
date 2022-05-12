@@ -478,7 +478,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   speed: 18
-  gravity: -9.81
+  gravity: -30
   jumpHeight: 10
   isGrounded: 0
   turnSmoothTime: 0.1
