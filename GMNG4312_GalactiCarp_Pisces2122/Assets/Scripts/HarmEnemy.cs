@@ -8,8 +8,10 @@ public class HarmEnemy : MonoBehaviour
 
     public GameObject player;
 
+    /*
     public GameObject Queen;
     public GameObject bug;
+    */
     public float health = 50f;
     public float bossHealth = 300f;
 
@@ -22,11 +24,11 @@ public class HarmEnemy : MonoBehaviour
         {
             crunch.Play();
 
-            if (bug.tag == "Enemy")
+            if (this.tag == "Enemy")
             {
                 TakeDamage(10);
             }
-            if(Queen.tag == "Boss")
+            if(this.tag == "Boss")
             {
                 BossTakeDamage(10);
             }
@@ -66,4 +68,6 @@ public class HarmEnemy : MonoBehaviour
 
         }
     }
+
+
 }

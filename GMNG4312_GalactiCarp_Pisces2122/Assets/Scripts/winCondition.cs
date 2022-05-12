@@ -12,7 +12,7 @@ public class winCondition : MonoBehaviour
     // Update is called once per frame
     void Update()
     {     
-        if(bugsDead == 60)
+        if(bugsDead == 59)
         {
             UnityEngine.SceneManagement.SceneManager.LoadScene("Win_Screen");
         }

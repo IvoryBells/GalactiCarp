@@ -617,8 +617,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 34201781}
   health: 50
   bossHealth: 100
   crunch: {fileID: 34201785}
@@ -1935,8 +1933,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 131576574}
   health: 50
   bossHealth: 100
   crunch: {fileID: 131576578}
@@ -2393,8 +2389,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 142934718}
   health: 50
   bossHealth: 100
   crunch: {fileID: 142934722}
@@ -3896,8 +3890,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 242102849}
   health: 50
   bossHealth: 100
   crunch: {fileID: 242102856}
@@ -6019,8 +6011,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 370876810}
   health: 50
   bossHealth: 100
   crunch: {fileID: 370876814}
@@ -7626,8 +7616,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 457733218}
   health: 50
   bossHealth: 100
   crunch: {fileID: 457733222}
@@ -8341,8 +8329,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 499452869}
   health: 50
   bossHealth: 100
   crunch: {fileID: 499452873}
@@ -8856,8 +8842,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 529700088}
   health: 50
   bossHealth: 100
   crunch: {fileID: 529700092}
@@ -9019,8 +9003,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 534724757}
   health: 50
   bossHealth: 100
   crunch: {fileID: 534724761}
@@ -10799,8 +10781,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 635857299}
   health: 50
   bossHealth: 100
   crunch: {fileID: 635857303}
@@ -11044,8 +11024,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 640252695}
   health: 50
   bossHealth: 100
   crunch: {fileID: 640252699}
@@ -13889,8 +13867,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 845876990}
   health: 50
   bossHealth: 100
   crunch: {fileID: 845876994}
@@ -14530,8 +14506,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 889806450}
   health: 50
   bossHealth: 100
   crunch: {fileID: 889806454}
@@ -14688,8 +14662,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 904801008}
   health: 50
   bossHealth: 100
   crunch: {fileID: 904801012}
@@ -15396,8 +15368,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 958446795}
   health: 50
   bossHealth: 100
   crunch: {fileID: 958446799}
@@ -17479,8 +17449,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 1050501415}
   health: 50
   bossHealth: 100
   crunch: {fileID: 1050501419}
@@ -17719,8 +17687,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 1060880183}
   health: 50
   bossHealth: 100
   crunch: {fileID: 1060880187}
@@ -18910,8 +18876,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 1137104737}
   health: 50
   bossHealth: 100
   crunch: {fileID: 1137104741}
@@ -19809,8 +19773,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 1186802627}
   health: 50
   bossHealth: 100
   crunch: {fileID: 1186802631}
@@ -20489,8 +20451,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 1230419792}
   health: 50
   bossHealth: 100
   crunch: {fileID: 1230419796}
@@ -20647,8 +20607,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 1230864122}
   health: 50
   bossHealth: 100
   crunch: {fileID: 1230864126}
@@ -22291,8 +22249,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
   count: 0
-  EHealthBar: {fileID: 1592485444295914631}
-  EHealthFrame: {fileID: 2115752553856973983}
   Queen: {fileID: 1622379943}
 --- !u!4 &1353740209
 Transform:
@@ -23653,8 +23609,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 1402865880}
   health: 50
   bossHealth: 100
   crunch: {fileID: 1402865884}
@@ -24066,8 +24020,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 1425912658}
   health: 50
   bossHealth: 100
   crunch: {fileID: 1425912662}
@@ -24355,8 +24307,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 1433327111}
   health: 50
   bossHealth: 100
   crunch: {fileID: 1433327115}
@@ -27446,10 +27396,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 242102849}
-  health: 50
-  bossHealth: 100
+  health: 300
+  bossHealth: 300
   crunch: {fileID: 1622379945}
 --- !u!136 &1622379948
 CapsuleCollider:
@@ -29719,8 +29667,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 1743985047}
   health: 50
   bossHealth: 100
   crunch: {fileID: 1743985051}
@@ -30385,8 +30331,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 1795051269}
   health: 50
   bossHealth: 100
   crunch: {fileID: 1795051273}
@@ -30937,8 +30881,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 1810629924}
   health: 50
   bossHealth: 100
   crunch: {fileID: 1810629928}
@@ -31910,8 +31852,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 1888399655}
   health: 50
   bossHealth: 100
   crunch: {fileID: 1888399659}
@@ -34941,8 +34881,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1361470635}
-  Queen: {fileID: 1622379943}
-  bug: {fileID: 2118929780}
   health: 50
   bossHealth: 100
   crunch: {fileID: 2118929784}
@@ -36129,7 +36067,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &2115752553856973969
 GameObject:
   m_ObjectHideFlags: 0
