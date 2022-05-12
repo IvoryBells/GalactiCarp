@@ -1324,7 +1324,7 @@ GameObject:
   - component: {fileID: 4289679127648193619}
   m_Layer: 0
   m_Name: Pisces Bug
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1425,6 +1425,7 @@ MonoBehaviour:
   myTarget: {fileID: 0}
   myagent: {fileID: 929441417655341497}
   range: 30
+  Player: {fileID: 0}
 --- !u!1 &5337087648048863214
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Camera
   - Spawner
+  - HealthSprite
+  - ManaSprite
+  - Enemy
+  - Bullet
   layers:
   - Default
   - TransparentFX
