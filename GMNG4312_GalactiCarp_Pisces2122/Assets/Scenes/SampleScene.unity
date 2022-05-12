@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -345,8 +345,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf9598b532ef324c9958cd2132a01a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  theKey: {fileID: 0}
   scrapCount: 0
   scrap_goal: 0
+  playerCam: {fileID: 0}
+  remoteCam: {fileID: 0}
+  setScrapCount: 0
 --- !u!1001 &142394473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1313,6 +1317,7 @@ GameObject:
   - component: {fileID: 744713080}
   - component: {fileID: 744713079}
   - component: {fileID: 744713081}
+  - component: {fileID: 744713082}
   m_Layer: 0
   m_Name: CM FreeLook1
   m_TagString: Untagged
@@ -1453,6 +1458,18 @@ MonoBehaviour:
   player: {fileID: 0}
   followTarget: {fileID: 0}
   vcam: {fileID: 0}
+--- !u!114 &744713082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744713078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f302c7e54f61e54fa4759b0172888b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &772923302
 GameObject:
   m_ObjectHideFlags: 0
@@ -3625,14 +3642,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7875c39547040924ba157aab059c2394, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealthGlobe: {fileID: 859889693}
-  healthText: {fileID: 0}
+  healthBar: {fileID: 0}
   hitPoint: 100
   maxHitPoint: 100
   Regenerate: 1
   regen: 0.1
   regenUpdateInterval: 1
-  GodMode: 0
 --- !u!1001 &1752408768
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4458,22 +4473,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c3ceb37895e7d6439388aa46ae763de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Bug: {fileID: 0}
-  player: {fileID: 0}
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 8
-  whatIsPlayer:
-    serializedVersion: 2
-    m_Bits: 0
-  walkPoint: {x: 0, y: 0, z: 0}
-  walkPointRange: 0
-  timeBetweenAttacks: 0
-  sightRange: 0
-  attackRange: 0
-  playerInSightRange: 0
-  playerInattackRange: 0
-  gateInAttackRange: 0
 --- !u!1001 &2107111874
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4695,22 +4694,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c3ceb37895e7d6439388aa46ae763de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Bug: {fileID: 0}
-  player: {fileID: 7661902488011324638, guid: 97e0085b72d9c374e916decb7d45f979, type: 3}
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 8
-  whatIsPlayer:
-    serializedVersion: 2
-    m_Bits: 64
-  walkPoint: {x: 0, y: 0, z: 0}
-  walkPointRange: 0
-  timeBetweenAttacks: 2
-  sightRange: 10
-  attackRange: 2
-  playerInSightRange: 0
-  playerInattackRange: 0
-  gateInAttackRange: 0
 --- !u!1001 &3880621507171012572
 PrefabInstance:
   m_ObjectHideFlags: 0
