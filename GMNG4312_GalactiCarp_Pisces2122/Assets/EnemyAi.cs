@@ -86,6 +86,9 @@ public class EnemyAi : MonoBehaviour
             ///rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
             ///rb.AddForce(transform.up * 8f, ForceMode.Impulse);
             ///End of attack code
+            ///
+            HealthSystem.PlayerHealth.TakeDamage(10);
+
 
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);

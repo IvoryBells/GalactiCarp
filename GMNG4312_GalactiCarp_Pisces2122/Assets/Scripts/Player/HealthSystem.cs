@@ -48,7 +48,7 @@ public class HealthSystem : MonoBehaviour
         }
 		if(hitPoint <= 0 )
         {
-			SceneManager.LoadScene("Level_2");
+			SceneManager.LoadScene("Lose_Screen");
         }
 		if (Regenerate)
 			Regen();
