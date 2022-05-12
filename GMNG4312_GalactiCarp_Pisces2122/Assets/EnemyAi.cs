@@ -1,9 +1,11 @@
 using UnityEngine;
 using UnityEngine.AI;
 
+
 public class EnemyAi : MonoBehaviour
 {
     public NavMeshAgent agent;
+
 
     public Transform player;
 
@@ -25,13 +27,17 @@ public class EnemyAi : MonoBehaviour
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
 
+    
+
+
     private void Awake()
     {
         player = GameObject.Find("Player").transform;
-        agent = GetComponent<NavMeshAgent>();
+        agent = GetComponent<NavMeshAgent>();        
     }
 
-    private void Update()
+
+    void Update()
     {
         //Check for sight and attack range
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
@@ -40,6 +46,7 @@ public class EnemyAi : MonoBehaviour
         if (!playerInSightRange && !playerInAttackRange) Patroling();
         if (playerInSightRange && !playerInAttackRange) ChasePlayer();
         if (playerInAttackRange && playerInSightRange) AttackPlayer();
+        
     }
 
     private void Patroling()
@@ -81,14 +88,7 @@ public class EnemyAi : MonoBehaviour
 
         if (!alreadyAttacked)
         {
-            ///Attack code here
-            ///Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
-            ///rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-            ///rb.AddForce(transform.up * 8f, ForceMode.Impulse);
-            ///End of attack code
-            ///
             HealthSystem.PlayerHealth.TakeDamage(10);
-
 
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);

@@ -10,6 +10,7 @@ TagManager:
   - ManaSprite
   - Enemy
   - Bullet
+  - Boss
   layers:
   - Default
   - TransparentFX

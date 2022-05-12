@@ -4,16 +4,22 @@ using UnityEngine;
 
 public class KillBug : MonoBehaviour
 {
-
     public AudioSource crunch;
-    // Start is called before the first frame update
-    public void OnTriggerEnter(Collider other)
+    public GameObject player;
+
+
+    private void Awake()
     {
-        if(other.tag == "Bullet")
+        player = GameObject.FindGameObjectWithTag("Player");
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Bullet")
         {
             crunch.Play();
 
-            Destroy(this.gameObject);
+            player.GetComponent<winCondition>().bugsDead += 1;
         }
     }
 }

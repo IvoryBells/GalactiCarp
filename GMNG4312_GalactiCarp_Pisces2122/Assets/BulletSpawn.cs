@@ -67,15 +67,9 @@ public class BulletSpawn : MonoBehaviour
     
     private void MyInput()
     {
-        if(allowHold)
-        {
-            shooting = Input.GetButton("Fire2");
-        }
-        else
-        {
-            shooting = Input.GetButtonDown("Fire2");
-        }
-
+        
+        shooting = Input.GetButtonDown("Fire2");
+               
         //Shooting
         if(shooting)
         {

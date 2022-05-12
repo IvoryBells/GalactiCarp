@@ -6,13 +6,13 @@ using UnityEngine.UI;
 public class winCondition : MonoBehaviour
 {
 
+    public int bugsDead = 0;
+
+
     // Update is called once per frame
     void Update()
-    {
-
-
-        //queenbug health == 0 
-        if(GetComponent<HarmEnemy>().deathCount == 30)
+    {     
+        if(bugsDead == 60)
         {
             UnityEngine.SceneManagement.SceneManager.LoadScene("Win_Screen");
         }

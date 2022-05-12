@@ -40,12 +40,7 @@ public class HealthSystem : MonoBehaviour
 	}
 
 	void Update ()
-	{
-
-		if(Input.GetKeyDown(KeyCode.E))
-        {
-			TakeDamage(20);
-        }
+	{		
 		if(hitPoint <= 0 )
         {
 			SceneManager.LoadScene("Lose_Screen");
